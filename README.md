@@ -4,34 +4,24 @@
 
 *From imperfect data to defensible decisions.*
 
-Neuf études et laboratoires assistés par IA, présentés autour de décisions, de contrôles de données, de références simples et de limites vérifiables. Les résultats proviennent d’exécutions locales documentées ; ils ne valident pas une maîtrise personnelle autonome, une expérience client ou un usage en production.
+Ce portfolio réunit cinq études de cas et quatre laboratoires techniques autour d’une question centrale : comment passer de données imparfaites à une décision fiable et défendable ? Chaque réalisation présente les contrôles effectués, les résultats mesurés et les limites à prendre en compte. Il s’agit de travaux de démonstration, et non de missions client ou de systèmes déployés en production. Une assistance IA a été utilisée pour certaines réalisations techniques et documentaires ; son périmètre est précisé dans la documentation de provenance.
 
 [Voir la présentation Notion publique](https://four-selenium-26f.notion.site/Zaineb-Mhiri-Decision-Focused-Data-Science-Portfolio-402aa794e97f816489c9f6bb805e316c) · [État de diffusion](PUBLICATION_STATUS.md)
 
 ## Parcours de lecture
 
-Commencer par **Retail** pour le choix du modèle et l’incertitude, **Olist** pour la fiabilité des indicateurs SQL, puis **CFPB** pour l’abstention et la revue humaine. Les quatre laboratoires apportent des preuves d’exécution RAG local, Spark, TensorFlow et Docker. Le projet Telco existant a été reproduit sans reconstruction.
+Pour découvrir l’approche décisionnelle, commencer par **Retail** (prévision et incertitude), poursuivre avec **Olist** (fiabilité des indicateurs SQL), puis **CFPB** (limites de l’automatisation et revue humaine). **Telco Churn** illustre la priorisation sous contrainte de capacité. Quatre laboratoires complètent ces études par des expérimentations techniques sur le RAG, Spark, TensorFlow et Docker.
 
 | Réalisation | Résultat vérifié | Limite et décision |
-
 |---|---|---|
-
 | [PRJ1 Telco](projects/PRJ1_telco/README.md) | Dépôt existant figé, 29 fichiers vérifiés ; environnement original neuf, 3 tests, 9 cellules notebook ; cinq CSV et résumé concordants. AUC test 0,8433 ; top30 : 423 contacts, 246 départs observés. Deux pages Notion cohérentes. | Classement historique éducatif ; aucun client sauvé ou bénéfice de campagne démontré. Validation opérationnelle et choix de licence du code encore nécessaires. |
-
 | [PRJ2 Retail](projects/PRJ2_retail/README.md) | Baseline saisonnière choisie avant test ; WAPE 17,40 % sur 26 semaines ; sensibilité déduplication 14,34 %. SQL réconcilié. | Ventes positives observées ; ni demande latente ni stock. Couverture 61,54 % sur 13 semaines d’évaluation : le scénario nominal 90 % échoue empiriquement. |
-
 | [PRJ3 Olist](projects/PRJ3_olist/README.md) | 99 441 commandes conservées au bon grain ; 6 534 retards sur 96 470 livraisons éligibles, soit 6,77 % ; cohorte mature 6,85 %. | Dénominateur conditionnel ; pas de causalité. Licence non commerciale : présentation commerciale limitée à la méthode. |
-
 | [PRJ4 CFPB](projects/PRJ4_cfpb/README.md) | Échantillon déterministe 3 %, séparation temporelle et contrôle des répétitions ; précision globale test 80,74 %, macro-F1 0,632. File complète : 5 047 dossiers sur 8 218 en revue humaine. | STOP au routage automatique : faibles résultats des classes rares. Suggestions vérifiées par une personne ; textes, vocabulaire et modèle privés exclus de l’archive. |
-
 | [PRJ5 MetroPT](projects/PRJ5_metro/README.md) | IsolationForest : 30 épisodes contre 175 pour la référence robuste ; recouvrement 4/4 fenêtres documentées, anticipation 24 h seulement 1/4. | Une machine et quatre fenêtres ; alertes hors rapports non vérifiées. Aucun gain de maintenance ou usage de sécurité démontré. |
-
 | [LAB1 RAG local](projects/LAB1_rag/README.md) | FLAN-T5 local réel ; 20 questions fixes, grille explicite après exécution : sans RAG 10 %, brut 70 %, gardé 85 %. | Petit diagnostic ; vérification de citation mécanique, pas de preuve sémantique indépendante ni assistant autonome fiable. |
-
 | [LAB2 PySpark](projects/LAB2_pyspark/README.md) | Spark réel sur 1 516 948 observations ; SQL, écriture/lecture Parquet et parité pandas à 1e-10. | Exécution locale, pas de cluster de production. |
-
 | [LAB3 TensorFlow](projects/LAB3_tensorflow/README.md) | Trois entraînements réels ; exactitudes test 97,22 %, 96,67 %, 96,94 %, contre 96,39 % pour la régression logistique. | Régression logistique conservée par la règle de complexité sur validation ; petit benchmark, pas d’usage industriel. |
-
 | [LAB4 API/Docker](projects/LAB4_delivery/README.md) | Docker Desktop 4.96.3, WSL 3.0.3, moteur 29.9.2 ; image construite et exécutée. Santé/prévision 200, prévision 53 ; cinq rejets 422, healthcheck sain, UID1000, arrêt code0. | Défaut NaN trouvé puis corrigé/testé. Écoute limitée à 127.0.0.1 ; CI distante et cloud non exécutés. |
 
 ## Vérification et reproduction
