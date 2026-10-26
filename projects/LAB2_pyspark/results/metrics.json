@@ -1,0 +1,50 @@
+{
+  "engine_version": "4.2.0",
+  "master": "local[2]",
+  "input_rows": 1516948,
+  "null_required": 0,
+  "nulls_by_required_field": {
+    "row_id": 0,
+    "time": 0,
+    "TP2": 0,
+    "TP3": 0,
+    "H1": 0,
+    "DV_pressure": 0,
+    "Reservoirs": 0,
+    "Oil_temperature": 0,
+    "Motor_current": 0,
+    "COMP": 0,
+    "DV_eletric": 0,
+    "Towers": 0,
+    "MPG": 0,
+    "LPS": 0,
+    "Pressure_switch": 0,
+    "Oil_level": 0,
+    "Caudal_impulses": 0
+  },
+  "nonfinite_sensor_rows": 0,
+  "cached_input_crc_matches_raw": true,
+  "duplicate_row_ids": 0,
+  "output_month_rows": 8,
+  "parquet_roundtrip": true,
+  "pandas_parity_tolerance": 1e-10,
+  "elapsed_seconds": 21.044367299997248,
+  "scale": "1516948 sensor rows on local[2]; no claim of big-data production experience",
+  "partitioning": "up to 2 physical output partitions; eight aggregate rows, directory partitioning adds no value",
+  "license": "MetroPT-3 CC BY 4.0, Davari et al.",
+  "environment": {
+    "python": "3.13.1",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "packages": {
+      "pandas": "3.1.0",
+      "numpy": "2.5.4",
+      "scikit-learn": "1.9.1",
+      "tensorflow": "2.21.0",
+      "torch": "2.14.1",
+      "transformers": "5.20.2",
+      "pyspark": "4.2.0",
+      "fastapi": "0.161.1",
+      "matplotlib": "3.11.2"
+    }
+  }
+}

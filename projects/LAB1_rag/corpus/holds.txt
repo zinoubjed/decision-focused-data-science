@@ -1,0 +1,1 @@
+Lumen Library reservations are held for 3 days after notification. Members can reserve at most 4 books at once. Uncollected reservations are released to the next member after the holding period.

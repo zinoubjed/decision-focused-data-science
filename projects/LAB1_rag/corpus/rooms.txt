@@ -1,0 +1,1 @@
+Lumen Library study rooms can be booked for 2 hours. A group can have at most 6 people. A booking is cancelled if nobody arrives within 15 minutes. Food is prohibited in study rooms.

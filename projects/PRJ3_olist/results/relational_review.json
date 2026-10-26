@@ -1,0 +1,39 @@
+{
+  "rows_by_table": {
+    "orders": 99441,
+    "customers": 99441,
+    "order_items": 112650,
+    "order_payments": 103886,
+    "order_reviews": 99224,
+    "products": 32951,
+    "sellers": 3095,
+    "geolocation": 1000163,
+    "translation": 71
+  },
+  "duplicate_primary_keys": {
+    "orders": 0,
+    "customers": 0,
+    "products": 0,
+    "sellers": 0,
+    "translation": 0
+  },
+  "foreign_key_orphans": {
+    "order_customer": 0,
+    "item_order": 0,
+    "item_product": 0,
+    "item_seller": 0,
+    "payment_order": 0,
+    "review_order": 0
+  },
+  "review_id_repeats": 814,
+  "review_order_composite_repeats": 0,
+  "products_without_category": 610,
+  "products_with_untranslated_nonnull_category": 13,
+  "geolocation_zip_is_unique": false,
+  "zip_prefix_types_preserved": {
+    "customers": "string",
+    "sellers": "string",
+    "geolocation": "string"
+  },
+  "interpretation": "Do not assume review_id or ZIP is a unique join key. Translation is optional and unmatched categories must remain visible."
+}

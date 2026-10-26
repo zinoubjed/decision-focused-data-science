@@ -1,0 +1,895 @@
+{
+  "archives": [
+    {
+      "archive": "CCDB_Export_10_March_2025_through_April_2025.zip",
+      "narrative_period": [
+        "2025-03-01 00:00:00",
+        "2025-04-30 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2025": 210147
+      }
+    },
+    {
+      "archive": "CCDB_Export_11_May_2025_through_June_2025.zip",
+      "narrative_period": [
+        "2025-05-01 00:00:00",
+        "2025-06-30 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2025": 219632
+      }
+    },
+    {
+      "archive": "CCDB_Export_12_July_2025_through_August_2025.zip",
+      "narrative_period": [
+        "2025-07-01 00:00:00",
+        "2025-08-31 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2025": 234404
+      }
+    },
+    {
+      "archive": "CCDB_Export_13_September_2025_through_October_2025.zip",
+      "narrative_period": [
+        "2025-09-01 00:00:00",
+        "2025-10-31 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2025": 157821
+      }
+    },
+    {
+      "archive": "CCDB_Export_14_November_2025_through_December_2025.zip",
+      "narrative_period": [
+        "2025-11-01 00:00:00",
+        "2025-12-31 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2025": 134641
+      }
+    },
+    {
+      "archive": "CCDB_Export_15_January_2026_through_February_2026.zip",
+      "narrative_period": [
+        "2026-01-01 00:00:00",
+        "2026-02-28 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2026": 34351
+      }
+    },
+    {
+      "archive": "CCDB_Export_16_March_2026.zip",
+      "narrative_period": [
+        "2026-03-01 00:00:00",
+        "2026-03-31 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2026": 21640
+      }
+    },
+    {
+      "archive": "CCDB_Export_17_April_2026.zip",
+      "narrative_period": [
+        "2026-04-01 00:00:00",
+        "2026-04-30 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2026": 21052
+      }
+    },
+    {
+      "archive": "CCDB_Export_18_May_2026.zip",
+      "narrative_period": [
+        "2026-05-01 00:00:00",
+        "2026-05-31 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2026": 17528
+      }
+    },
+    {
+      "archive": "CCDB_Export_19_June_2026.zip",
+      "narrative_period": [
+        "2026-06-01 00:00:00",
+        "2026-06-30 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2026": 16820
+      }
+    },
+    {
+      "archive": "CCDB_Export_1_December_2011_through_April_2018.zip",
+      "narrative_period": [
+        "2015-03-19 00:00:00",
+        "2018-04-30 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2017": 115311,
+        "2016": 77766,
+        "2015": 54723,
+        "2018": 43774
+      }
+    },
+    {
+      "archive": "CCDB_Export_20_July_2026.zip",
+      "narrative_period": [
+        "2026-07-01 00:00:00",
+        "2026-07-29 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2026": 10002
+      }
+    },
+    {
+      "archive": "CCDB_Export_21_August_2026.zip",
+      "narrative_period": [
+        "2026-08-11 00:00:00",
+        "2026-08-11 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2026": 1
+      }
+    },
+    {
+      "archive": "CCDB_Export_2_May_2018_through_April_2021.zip",
+      "narrative_period": [
+        "2018-05-01 00:00:00",
+        "2021-04-30 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2018": 74619,
+        "2020": 174297,
+        "2019": 124843,
+        "2021": 66101
+      }
+    },
+    {
+      "archive": "CCDB_Export_3_May_2021_through_October_2022.zip",
+      "narrative_period": [
+        "2021-05-01 00:00:00",
+        "2022-10-31 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2021": 137469,
+        "2022": 270577
+      }
+    },
+    {
+      "archive": "CCDB_Export_4_November_2022_through_August_2023.zip",
+      "narrative_period": [
+        "2022-11-01 00:00:00",
+        "2023-08-31 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2023": 321799,
+        "2022": 66696
+      }
+    },
+    {
+      "archive": "CCDB_Export_5_September_2023_through_March_2024.zip",
+      "narrative_period": [
+        "2023-09-01 00:00:00",
+        "2024-03-31 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2023": 165611,
+        "2024": 153193
+      }
+    },
+    {
+      "archive": "CCDB_Export_6_April_2024_through_July_2024.zip",
+      "narrative_period": [
+        "2024-04-01 00:00:00",
+        "2024-07-31 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2024": 276332
+      }
+    },
+    {
+      "archive": "CCDB_Export_7_August_2024_through_October_2024.zip",
+      "narrative_period": [
+        "2024-08-01 00:00:00",
+        "2024-10-31 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2024": 229944
+      }
+    },
+    {
+      "archive": "CCDB_Export_8_November_2024_through_December_2024.zip",
+      "narrative_period": [
+        "2024-11-01 00:00:00",
+        "2024-12-31 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2024": 154916
+      }
+    },
+    {
+      "archive": "CCDB_Export_9_January_2025_through_February_2025.zip",
+      "narrative_period": [
+        "2025-01-01 00:00:00",
+        "2025-02-28 00:00:00"
+      ],
+      "narratives_by_year": {
+        "2025": 265405
+      }
+    }
+  ],
+  "year_product": [
+    {
+      "year": "2015",
+      "product": "Bank account or service",
+      "narratives": 4559
+    },
+    {
+      "year": "2015",
+      "product": "Consumer Loan",
+      "narratives": 2969
+    },
+    {
+      "year": "2015",
+      "product": "Credit card",
+      "narratives": 6243
+    },
+    {
+      "year": "2015",
+      "product": "Credit reporting",
+      "narratives": 10258
+    },
+    {
+      "year": "2015",
+      "product": "Debt collection",
+      "narratives": 14546
+    },
+    {
+      "year": "2015",
+      "product": "Money transfers",
+      "narratives": 562
+    },
+    {
+      "year": "2015",
+      "product": "Mortgage",
+      "narratives": 12301
+    },
+    {
+      "year": "2015",
+      "product": "Other financial service",
+      "narratives": 87
+    },
+    {
+      "year": "2015",
+      "product": "Payday loan",
+      "narratives": 614
+    },
+    {
+      "year": "2015",
+      "product": "Prepaid card",
+      "narratives": 772
+    },
+    {
+      "year": "2015",
+      "product": "Student loan",
+      "narratives": 1805
+    },
+    {
+      "year": "2015",
+      "product": "Virtual currency",
+      "narratives": 7
+    },
+    {
+      "year": "2016",
+      "product": "Bank account or service",
+      "narratives": 7755
+    },
+    {
+      "year": "2016",
+      "product": "Consumer Loan",
+      "narratives": 4666
+    },
+    {
+      "year": "2016",
+      "product": "Credit card",
+      "narratives": 9433
+    },
+    {
+      "year": "2016",
+      "product": "Credit reporting",
+      "narratives": 15081
+    },
+    {
+      "year": "2016",
+      "product": "Debt collection",
+      "narratives": 18676
+    },
+    {
+      "year": "2016",
+      "product": "Money transfers",
+      "narratives": 711
+    },
+    {
+      "year": "2016",
+      "product": "Mortgage",
+      "narratives": 15764
+    },
+    {
+      "year": "2016",
+      "product": "Other financial service",
+      "narratives": 139
+    },
+    {
+      "year": "2016",
+      "product": "Payday loan",
+      "narratives": 865
+    },
+    {
+      "year": "2016",
+      "product": "Prepaid card",
+      "narratives": 492
+    },
+    {
+      "year": "2016",
+      "product": "Student loan",
+      "narratives": 4178
+    },
+    {
+      "year": "2016",
+      "product": "Virtual currency",
+      "narratives": 6
+    },
+    {
+      "year": "2017",
+      "product": "Bank account or service",
+      "narratives": 2569
+    },
+    {
+      "year": "2017",
+      "product": "Checking or savings account",
+      "narratives": 4752
+    },
+    {
+      "year": "2017",
+      "product": "Consumer Loan",
+      "narratives": 1823
+    },
+    {
+      "year": "2017",
+      "product": "Credit card",
+      "narratives": 3161
+    },
+    {
+      "year": "2017",
+      "product": "Credit card or prepaid card",
+      "narratives": 7799
+    },
+    {
+      "year": "2017",
+      "product": "Credit reporting",
+      "narratives": 6248
+    },
+    {
+      "year": "2017",
+      "product": "Credit reporting, credit repair services, or other personal consumer reports",
+      "narratives": 36301
+    },
+    {
+      "year": "2017",
+      "product": "Debt collection",
+      "narratives": 23571
+    },
+    {
+      "year": "2017",
+      "product": "Money transfer, virtual currency, or money service",
+      "narratives": 1870
+    },
+    {
+      "year": "2017",
+      "product": "Money transfers",
+      "narratives": 224
+    },
+    {
+      "year": "2017",
+      "product": "Mortgage",
+      "narratives": 13152
+    },
+    {
+      "year": "2017",
+      "product": "Other financial service",
+      "narratives": 66
+    },
+    {
+      "year": "2017",
+      "product": "Payday loan",
+      "narratives": 266
+    },
+    {
+      "year": "2017",
+      "product": "Payday loan, title loan, or personal loan",
+      "narratives": 1633
+    },
+    {
+      "year": "2017",
+      "product": "Prepaid card",
+      "narratives": 186
+    },
+    {
+      "year": "2017",
+      "product": "Student loan",
+      "narratives": 9640
+    },
+    {
+      "year": "2017",
+      "product": "Vehicle loan or lease",
+      "narratives": 2047
+    },
+    {
+      "year": "2017",
+      "product": "Virtual currency",
+      "narratives": 3
+    },
+    {
+      "year": "2018",
+      "product": "Checking or savings account",
+      "narratives": 6999
+    },
+    {
+      "year": "2018",
+      "product": "Credit card or prepaid card",
+      "narratives": 11854
+    },
+    {
+      "year": "2018",
+      "product": "Credit reporting, credit repair services, or other personal consumer reports",
+      "narratives": 48975
+    },
+    {
+      "year": "2018",
+      "product": "Debt collection",
+      "narratives": 26107
+    },
+    {
+      "year": "2018",
+      "product": "Money transfer, virtual currency, or money service",
+      "narratives": 3241
+    },
+    {
+      "year": "2018",
+      "product": "Mortgage",
+      "narratives": 10269
+    },
+    {
+      "year": "2018",
+      "product": "Payday loan, title loan, or personal loan",
+      "narratives": 2396
+    },
+    {
+      "year": "2018",
+      "product": "Student loan",
+      "narratives": 5288
+    },
+    {
+      "year": "2018",
+      "product": "Vehicle loan or lease",
+      "narratives": 3264
+    },
+    {
+      "year": "2019",
+      "product": "Checking or savings account",
+      "narratives": 7351
+    },
+    {
+      "year": "2019",
+      "product": "Credit card or prepaid card",
+      "narratives": 12526
+    },
+    {
+      "year": "2019",
+      "product": "Credit reporting, credit repair services, or other personal consumer reports",
+      "narratives": 58515
+    },
+    {
+      "year": "2019",
+      "product": "Debt collection",
+      "narratives": 23945
+    },
+    {
+      "year": "2019",
+      "product": "Money transfer, virtual currency, or money service",
+      "narratives": 2835
+    },
+    {
+      "year": "2019",
+      "product": "Mortgage",
+      "narratives": 10035
+    },
+    {
+      "year": "2019",
+      "product": "Payday loan, title loan, or personal loan",
+      "narratives": 2425
+    },
+    {
+      "year": "2019",
+      "product": "Student loan",
+      "narratives": 4281
+    },
+    {
+      "year": "2019",
+      "product": "Vehicle loan or lease",
+      "narratives": 2930
+    },
+    {
+      "year": "2020",
+      "product": "Checking or savings account",
+      "narratives": 9530
+    },
+    {
+      "year": "2020",
+      "product": "Credit card or prepaid card",
+      "narratives": 17102
+    },
+    {
+      "year": "2020",
+      "product": "Credit reporting, credit repair services, or other personal consumer reports",
+      "narratives": 95924
+    },
+    {
+      "year": "2020",
+      "product": "Debt collection",
+      "narratives": 25831
+    },
+    {
+      "year": "2020",
+      "product": "Money transfer, virtual currency, or money service",
+      "narratives": 4827
+    },
+    {
+      "year": "2020",
+      "product": "Mortgage",
+      "narratives": 12467
+    },
+    {
+      "year": "2020",
+      "product": "Payday loan, title loan, or personal loan",
+      "narratives": 2349
+    },
+    {
+      "year": "2020",
+      "product": "Student loan",
+      "narratives": 2465
+    },
+    {
+      "year": "2020",
+      "product": "Vehicle loan or lease",
+      "narratives": 3802
+    },
+    {
+      "year": "2021",
+      "product": "Checking or savings account",
+      "narratives": 12401
+    },
+    {
+      "year": "2021",
+      "product": "Credit card or prepaid card",
+      "narratives": 16607
+    },
+    {
+      "year": "2021",
+      "product": "Credit reporting, credit repair services, or other personal consumer reports",
+      "narratives": 109197
+    },
+    {
+      "year": "2021",
+      "product": "Debt collection",
+      "narratives": 34478
+    },
+    {
+      "year": "2021",
+      "product": "Money transfer, virtual currency, or money service",
+      "narratives": 7966
+    },
+    {
+      "year": "2021",
+      "product": "Mortgage",
+      "narratives": 14077
+    },
+    {
+      "year": "2021",
+      "product": "Payday loan, title loan, or personal loan",
+      "narratives": 2388
+    },
+    {
+      "year": "2021",
+      "product": "Student loan",
+      "narratives": 2171
+    },
+    {
+      "year": "2021",
+      "product": "Vehicle loan or lease",
+      "narratives": 4285
+    },
+    {
+      "year": "2022",
+      "product": "Checking or savings account",
+      "narratives": 18032
+    },
+    {
+      "year": "2022",
+      "product": "Credit card or prepaid card",
+      "narratives": 21512
+    },
+    {
+      "year": "2022",
+      "product": "Credit reporting, credit repair services, or other personal consumer reports",
+      "narratives": 233888
+    },
+    {
+      "year": "2022",
+      "product": "Debt collection",
+      "narratives": 31380
+    },
+    {
+      "year": "2022",
+      "product": "Money transfer, virtual currency, or money service",
+      "narratives": 7898
+    },
+    {
+      "year": "2022",
+      "product": "Mortgage",
+      "narratives": 12289
+    },
+    {
+      "year": "2022",
+      "product": "Payday loan, title loan, or personal loan",
+      "narratives": 3202
+    },
+    {
+      "year": "2022",
+      "product": "Student loan",
+      "narratives": 4256
+    },
+    {
+      "year": "2022",
+      "product": "Vehicle loan or lease",
+      "narratives": 4816
+    },
+    {
+      "year": "2023",
+      "product": "Checking or savings account",
+      "narratives": 28017
+    },
+    {
+      "year": "2023",
+      "product": "Credit card",
+      "narratives": 12905
+    },
+    {
+      "year": "2023",
+      "product": "Credit card or prepaid card",
+      "narratives": 21283
+    },
+    {
+      "year": "2023",
+      "product": "Credit reporting or other personal consumer reports",
+      "narratives": 124058
+    },
+    {
+      "year": "2023",
+      "product": "Credit reporting, credit repair services, or other personal consumer reports",
+      "narratives": 224699
+    },
+    {
+      "year": "2023",
+      "product": "Debt collection",
+      "narratives": 35607
+    },
+    {
+      "year": "2023",
+      "product": "Debt or credit management",
+      "narratives": 307
+    },
+    {
+      "year": "2023",
+      "product": "Money transfer, virtual currency, or money service",
+      "narratives": 8459
+    },
+    {
+      "year": "2023",
+      "product": "Mortgage",
+      "narratives": 12883
+    },
+    {
+      "year": "2023",
+      "product": "Payday loan, title loan, or personal loan",
+      "narratives": 2826
+    },
+    {
+      "year": "2023",
+      "product": "Payday loan, title loan, personal loan, or advance loan",
+      "narratives": 1492
+    },
+    {
+      "year": "2023",
+      "product": "Prepaid card",
+      "narratives": 1351
+    },
+    {
+      "year": "2023",
+      "product": "Student loan",
+      "narratives": 6163
+    },
+    {
+      "year": "2023",
+      "product": "Vehicle loan or lease",
+      "narratives": 7360
+    },
+    {
+      "year": "2024",
+      "product": "Checking or savings account",
+      "narratives": 29485
+    },
+    {
+      "year": "2024",
+      "product": "Credit card",
+      "narratives": 35451
+    },
+    {
+      "year": "2024",
+      "product": "Credit reporting or other personal consumer reports",
+      "narratives": 630670
+    },
+    {
+      "year": "2024",
+      "product": "Debt collection",
+      "narratives": 70291
+    },
+    {
+      "year": "2024",
+      "product": "Debt or credit management",
+      "narratives": 1553
+    },
+    {
+      "year": "2024",
+      "product": "Money transfer, virtual currency, or money service",
+      "narratives": 10239
+    },
+    {
+      "year": "2024",
+      "product": "Mortgage",
+      "narratives": 12209
+    },
+    {
+      "year": "2024",
+      "product": "Payday loan, title loan, personal loan, or advance loan",
+      "narratives": 5211
+    },
+    {
+      "year": "2024",
+      "product": "Prepaid card",
+      "narratives": 3699
+    },
+    {
+      "year": "2024",
+      "product": "Student loan",
+      "narratives": 8025
+    },
+    {
+      "year": "2024",
+      "product": "Vehicle loan or lease",
+      "narratives": 7552
+    },
+    {
+      "year": "2025",
+      "product": "Checking or savings account",
+      "narratives": 51448
+    },
+    {
+      "year": "2025",
+      "product": "Credit card",
+      "narratives": 41516
+    },
+    {
+      "year": "2025",
+      "product": "Credit reporting or other personal consumer reports",
+      "narratives": 912756
+    },
+    {
+      "year": "2025",
+      "product": "Debt collection",
+      "narratives": 100609
+    },
+    {
+      "year": "2025",
+      "product": "Debt or credit management",
+      "narratives": 2645
+    },
+    {
+      "year": "2025",
+      "product": "Money transfer, virtual currency, or money service",
+      "narratives": 64863
+    },
+    {
+      "year": "2025",
+      "product": "Mortgage",
+      "narratives": 14031
+    },
+    {
+      "year": "2025",
+      "product": "Payday loan, title loan, personal loan, or advance loan",
+      "narratives": 7805
+    },
+    {
+      "year": "2025",
+      "product": "Prepaid card",
+      "narratives": 3822
+    },
+    {
+      "year": "2025",
+      "product": "Student loan",
+      "narratives": 10869
+    },
+    {
+      "year": "2025",
+      "product": "Vehicle loan or lease",
+      "narratives": 11686
+    },
+    {
+      "year": "2026",
+      "product": "Checking or savings account",
+      "narratives": 21335
+    },
+    {
+      "year": "2026",
+      "product": "Credit card",
+      "narratives": 20435
+    },
+    {
+      "year": "2026",
+      "product": "Credit reporting or other personal consumer reports",
+      "narratives": 4945
+    },
+    {
+      "year": "2026",
+      "product": "Debt collection",
+      "narratives": 40205
+    },
+    {
+      "year": "2026",
+      "product": "Debt or credit management",
+      "narratives": 1101
+    },
+    {
+      "year": "2026",
+      "product": "Money transfer, virtual currency, or money service",
+      "narratives": 9807
+    },
+    {
+      "year": "2026",
+      "product": "Mortgage",
+      "narratives": 7772
+    },
+    {
+      "year": "2026",
+      "product": "Payday loan, title loan, personal loan, or advance loan",
+      "narratives": 4356
+    },
+    {
+      "year": "2026",
+      "product": "Prepaid card",
+      "narratives": 1462
+    },
+    {
+      "year": "2026",
+      "product": "Student loan",
+      "narratives": 4055
+    },
+    {
+      "year": "2026",
+      "product": "Vehicle loan or lease",
+      "narratives": 5921
+    }
+  ]
+}

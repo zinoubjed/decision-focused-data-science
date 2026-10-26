@@ -1,0 +1,1 @@
+SELECT date_format(time,'yyyy-MM') AS month,COUNT(*) AS observations,AVG(TP2) AS mean_TP2,MIN(TP2) AS min_TP2,MAX(TP2) AS max_TP2 FROM sensors GROUP BY date_format(time,'yyyy-MM')

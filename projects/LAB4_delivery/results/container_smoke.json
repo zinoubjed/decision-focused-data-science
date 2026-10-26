@@ -1,0 +1,136 @@
+{
+  "image": "dfds-lab4:review",
+  "engine": {
+    "Client": {
+      "Version": "29.9.2",
+      "ApiVersion": "1.56",
+      "DefaultAPIVersion": "1.56",
+      "GitCommit": "a82e528",
+      "GoVersion": "go1.26.10",
+      "Os": "windows",
+      "Arch": "amd64",
+      "BuildTime": "Tue Oct 20 19:44:07 2026",
+      "Context": "desktop-linux"
+    },
+    "Server": {
+      "Platform": {
+        "Name": "Docker Desktop 4.96.3 (244472)"
+      },
+      "Version": "29.9.2",
+      "ApiVersion": "1.56",
+      "MinAPIVersion": "1.40",
+      "Os": "linux",
+      "Arch": "amd64",
+      "Components": [
+        {
+          "Name": "Engine",
+          "Version": "29.9.2",
+          "Details": {
+            "ApiVersion": "1.56",
+            "Arch": "amd64",
+            "BuildTime": "Tue Oct 20 18:45:02 2026",
+            "Experimental": "false",
+            "GitCommit": "0367cbe",
+            "GoVersion": "go1.26.10",
+            "KernelVersion": "6.18.54.1-microsoft-standard-WSL2",
+            "MinAPIVersion": "1.40",
+            "Module": "github.com/moby/moby/v2",
+            "ModuleVersion": "v2.0.0+unknown",
+            "Os": "linux"
+          }
+        },
+        {
+          "Name": "containerd",
+          "Version": "v2.4.2",
+          "Details": {
+            "GitCommit": "b7a25261e029d68978bbf290df0a62fc819b3c51"
+          }
+        },
+        {
+          "Name": "runc",
+          "Version": "1.5.2",
+          "Details": {
+            "GitCommit": "v1.5.2-0-g29dd3dc2"
+          }
+        },
+        {
+          "Name": "docker-init",
+          "Version": "0.19.0",
+          "Details": {
+            "GitCommit": "de40ad0"
+          }
+        }
+      ],
+      "GitCommit": "0367cbe",
+      "GoVersion": "go1.26.10",
+      "KernelVersion": "6.18.54.1-microsoft-standard-WSL2",
+      "BuildTime": "2026-10-20T18:45:02.000000000+00:00"
+    }
+  },
+  "image_inspect": "sha256:8742d4b2beb7fefb294c2940745e125e91cbc4582b0e674bc266baf927d4ce34",
+  "listener": "127.0.0.1:18765",
+  "fixtures": "synthetic numeric only",
+  "cloud": "NOT DEPLOYED",
+  "remote_ci": "NOT EXECUTED",
+  "container_id": "d58ee4c6f78d2849fd9a1861dced1119b906e655510b58c753b6c6797be9c5d5",
+  "health_http": 200,
+  "forecast_http": 200,
+  "forecast": 53.0,
+  "invalid_cases": [
+    {
+      "case": "short",
+      "http": 422,
+      "request_id_present": true
+    },
+    {
+      "case": "negative",
+      "http": 422,
+      "request_id_present": true
+    },
+    {
+      "case": "over_bound",
+      "http": 422,
+      "request_id_present": true
+    },
+    {
+      "case": "null",
+      "http": 422,
+      "request_id_present": true
+    },
+    {
+      "case": "nonfinite",
+      "http": 422,
+      "request_id_present": true
+    }
+  ],
+  "request_id_header": true,
+  "healthcheck": {
+    "Status": "healthy",
+    "FailingStreak": 0,
+    "Log": [
+      {
+        "Start": "2026-10-23T13:42:19.281441491Z",
+        "End": "2026-10-23T13:42:19.352563528Z",
+        "ExitCode": 0,
+        "Output": ""
+      }
+    ]
+  },
+  "nonroot_uid": "1000",
+  "port_bindings": {
+    "8000/tcp": [
+      {
+        "HostIp": "127.0.0.1",
+        "HostPort": "18765"
+      }
+    ]
+  },
+  "stopped": true,
+  "exit_code": 0,
+  "logs_saved": "container_run.txt",
+  "verified": true,
+  "base_image_digest": "sha256:57b29a7c050c4e679e4bea572e14b3965cf4b5839de2da49d55e49ffc4024f39",
+  "date": "2026-10-23",
+  "tested_api_sha256": "38b2df90e27f070cc169c939c384ce591f7d69a88f92c00ec74f10434c16a1dd",
+  "delivered_api_matches_tested_image": true
+}

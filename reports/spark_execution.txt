@@ -1,0 +1,35 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+26/10/23 13:05:16 WARN Shell: Did not find winutils.exe: java.io.FileNotFoundException: java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset. -see https://cwiki.apache.org/confluence/display/HADOOP2/WindowsProblems
+26/10/23 13:05:16 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+<LOCAL_PATH> FutureWarning: PySpark does not yet fully support pandas >= 3.0.0. Some features may not work correctly. It is recommended to use pandas < 3.0.0 for now.
+  require_minimum_pandas_version()
+
+[Stage 0:=============================>                             (1 + 1) / 2]
+
+                                                                                
+
+[Stage 3:>                                                          (0 + 2) / 2]
+
+                                                                                
+
+[Stage 6:>                                                          (0 + 2) / 2]
+
+                                                                                
+
+[Stage 12:>                                                         (0 + 2) / 2]
+
+[Stage 14:>                                                         (0 + 1) / 1]
+
+                                                                                
+<LOCAL_PATH> FutureWarning: PySpark does not yet fully support pandas >= 3.0.0. Some features may not work correctly. It is recommended to use pandas < 3.0.0 for now.
+  require_minimum_pandas_version()
+LAB2 Spark/Parquet/pandas parity 1516948 8
+Opération réussie : le processus de PID 528 (processus enfant de PID 26132) a été
+arrêté.
+Opération réussie : le processus de PID 26132 (processus enfant de PID 18252) a été
+arrêté.
+Opération réussie : le processus de PID 18252 (processus enfant de PID 11392) a été
+arrêté.

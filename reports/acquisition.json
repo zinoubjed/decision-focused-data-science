@@ -1,0 +1,64 @@
+[
+  {
+    "name": "retail",
+    "url": "https://archive.ics.uci.edu/static/public/502/online%2Bretail%2Bii.zip",
+    "retrieved_utc": "2026-10-23T10:52:28.918988+00:00",
+    "content_type": null,
+    "sha256": "572e36277c2390fbfde10664750731e0a86f55e33470d91919085f0408e67bfb",
+    "bytes": 45622418,
+    "members": [
+      "online_retail_II.xlsx"
+    ],
+    "crc_error": null,
+    "status": "OK"
+  },
+  {
+    "name": "metro",
+    "url": "https://archive.ics.uci.edu/static/public/791/metropt%2B3%2Bdataset.zip",
+    "retrieved_utc": "2026-10-23T10:52:28.919949+00:00",
+    "content_type": null,
+    "sha256": "aab991a970e58210de853bb8078ce0e63abb4d9412fdc5c79792dae3d8e1721a",
+    "bytes": 218381995,
+    "members": [
+      "Data Description_Metro.pdf",
+      "MetroPT3(AirCompressor).csv"
+    ],
+    "crc_error": null,
+    "status": "OK"
+  },
+  {
+    "name": "olist",
+    "url": "https://www.kaggle.com/api/v1/datasets/download/olistbr/brazilian-ecommerce",
+    "retrieved_utc": "2026-10-23T10:52:28.920673+00:00",
+    "content_type": "application/zip",
+    "sha256": "967e41e04fc306fe604e2a693f488995a8b41e5047418f8a5c8e4abd6deca784",
+    "bytes": 44717580,
+    "members": [
+      "olist_customers_dataset.csv",
+      "olist_geolocation_dataset.csv",
+      "olist_order_items_dataset.csv",
+      "olist_order_payments_dataset.csv",
+      "olist_order_reviews_dataset.csv",
+      "olist_orders_dataset.csv",
+      "olist_products_dataset.csv",
+      "olist_sellers_dataset.csv",
+      "product_category_name_translation.csv"
+    ],
+    "crc_error": null,
+    "status": "OK"
+  },
+  {
+    "name": "cfpb",
+    "url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_1_December_2011_through_April_2018.zip",
+    "retrieved_utc": "2026-10-23T10:52:28.921468+00:00",
+    "status": "FAILED",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "cfpb_recent",
+    "url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_8_November_2024_through_December_2024.zip",
+    "retrieved_utc": "2026-10-23T10:52:29.409219+00:00",
+    "status": "FAILED",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "population": "3% ID-sampled 2023-01-01 to 2023-07-31 narratives in fixed taxonomy window, after required-field/ID checks",
+  "sampled_test_before_text_filter": 8218,
+  "exact_repeat_review": 1022,
+  "unsupported_class_review": 0,
+  "near_repeat_review": 2519,
+  "retained_novel_test": 4677,
+  "novel_low_confidence_review": 1506,
+  "accepted_suggestions": 3171,
+  "accepted_wrong": 273,
+  "total_manual_review_if_duplicate_gate_is_deployed": 5047,
+  "acceptance_fraction_over_all_sampled_test": 0.3858603066439523,
+  "review_fraction_over_all_sampled_test": 0.6141396933560477,
+  "cost_scenarios_including_withheld_cases": [
+    {
+      "wrong_cost_assumption": 5,
+      "review_cost_assumption": 1,
+      "total_units": 6412,
+      "review_all_units": 8218
+    },
+    {
+      "wrong_cost_assumption": 10,
+      "review_cost_assumption": 1,
+      "total_units": 7777,
+      "review_all_units": 8218
+    },
+    {
+      "wrong_cost_assumption": 25,
+      "review_cost_assumption": 1,
+      "total_units": 11872,
+      "review_all_units": 8218
+    }
+  ],
+  "interpretation": "Duplicate/unsupported cases are assigned to review, not silently removed from workload. This is a hypothetical gate on a sample, not measured institution productivity.",
+  "fresh_sample_identical_to_original": true,
+  "limitations": [
+    "No calibrated probability guarantee.",
+    "Wilson bounds used during threshold search are descriptive, not post-selection guarantees.",
+    "Rare-class accepted volumes can be too small for reliable quality claims."
+  ]
+}

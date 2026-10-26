@@ -1,0 +1,48 @@
+{
+  "extra_aliases": {
+    "Is the library open on Sunday?": [
+      "no",
+      "the library is closed on sunday"
+    ],
+    "Can digital book loans be renewed?": [
+      "no",
+      "digital loans cannot be renewed"
+    ],
+    "How many renewals are allowed for a standard book?": [
+      "one",
+      "1"
+    ],
+    "How many days does a standard book loan last?": [
+      "14 days"
+    ]
+  },
+  "unknown_aliases": [
+    "not specified",
+    "not specified in this handbook",
+    "the handbook does not specify",
+    "unknown"
+  ],
+  "criterion": "exact normalized match, not substring",
+  "source_by_question": [
+    "loans",
+    "loans",
+    "hours",
+    "hours",
+    "holds",
+    "holds",
+    "membership",
+    "returns",
+    "returns",
+    "rooms",
+    "rooms",
+    "rooms",
+    "digital",
+    "digital",
+    "digital",
+    "support",
+    "returns",
+    "support",
+    null,
+    null
+  ]
+}

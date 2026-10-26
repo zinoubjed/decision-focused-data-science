@@ -1,0 +1,476 @@
+[
+  {
+    "question": "How many days does a standard book loan last?",
+    "expected": "14",
+    "answerable": true,
+    "retrieved": [
+      "loans",
+      "returns"
+    ],
+    "retrieval_hit": true,
+    "raw_rag_answer": "14",
+    "guarded_answer": "14",
+    "citations": [
+      "loans.txt"
+    ],
+    "baseline_answer": "a week",
+    "raw_correct": true,
+    "guarded_correct": true,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": false,
+    "guard_abstained": false,
+    "rag_generation_seconds": 0.08533790003275499,
+    "baseline_generation_seconds": 0.08069239999167621,
+    "retrieval_similarity": 0.8629547300371363
+  },
+  {
+    "question": "How many renewals are allowed for a standard book?",
+    "expected": "once",
+    "answerable": true,
+    "retrieved": [
+      "loans",
+      "returns"
+    ],
+    "retrieval_hit": true,
+    "raw_rag_answer": "once",
+    "guarded_answer": "once",
+    "citations": [
+      "loans.txt"
+    ],
+    "baseline_answer": "two",
+    "raw_correct": true,
+    "guarded_correct": true,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": false,
+    "guard_abstained": false,
+    "rag_generation_seconds": 0.10576750000473112,
+    "baseline_generation_seconds": 0.04356939997524023,
+    "retrieval_similarity": 0.9497034105547508
+  },
+  {
+    "question": "When does the library open on weekdays?",
+    "expected": "09:00",
+    "answerable": true,
+    "retrieved": [
+      "support",
+      "returns"
+    ],
+    "retrieval_hit": false,
+    "raw_rag_answer": "11:30 AM",
+    "guarded_answer": "UNKNOWN",
+    "citations": [],
+    "baseline_answer": "6:00 p.m.",
+    "raw_correct": false,
+    "guarded_correct": false,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": true,
+    "guard_abstained": true,
+    "rag_generation_seconds": 0.12624699994921684,
+    "baseline_generation_seconds": 0.126612699998077,
+    "retrieval_similarity": 0.9301241685182309
+  },
+  {
+    "question": "Is the library open on Sunday?",
+    "expected": "closed",
+    "answerable": true,
+    "retrieved": [
+      "hours",
+      "loans"
+    ],
+    "retrieval_hit": true,
+    "raw_rag_answer": "The library is closed on Sunday.",
+    "guarded_answer": "The library is closed on Sunday.",
+    "citations": [
+      "hours.txt"
+    ],
+    "baseline_answer": "no",
+    "raw_correct": true,
+    "guarded_correct": true,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": false,
+    "guard_abstained": false,
+    "rag_generation_seconds": 0.18310480000218377,
+    "baseline_generation_seconds": 0.04980829998385161,
+    "retrieval_similarity": 0.9478115095765566
+  },
+  {
+    "question": "How long are reservations held after notification?",
+    "expected": "3 days",
+    "answerable": true,
+    "retrieved": [
+      "holds",
+      "loans"
+    ],
+    "retrieval_hit": true,
+    "raw_rag_answer": "3 days",
+    "guarded_answer": "3 days",
+    "citations": [
+      "holds.txt"
+    ],
+    "baseline_answer": "a few days",
+    "raw_correct": true,
+    "guarded_correct": true,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": false,
+    "guard_abstained": false,
+    "rag_generation_seconds": 0.11097520001931116,
+    "baseline_generation_seconds": 0.1002419000142254,
+    "retrieval_similarity": 0.9941745709936692
+  },
+  {
+    "question": "What is the maximum number of simultaneous reservations?",
+    "expected": "4",
+    "answerable": true,
+    "retrieved": [
+      "holds",
+      "support"
+    ],
+    "retrieval_hit": true,
+    "raw_rag_answer": "4",
+    "guarded_answer": "4",
+    "citations": [
+      "holds.txt"
+    ],
+    "baseline_answer": "ten",
+    "raw_correct": true,
+    "guarded_correct": true,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": false,
+    "guard_abstained": false,
+    "rag_generation_seconds": 0.10323569999309257,
+    "baseline_generation_seconds": 0.07211770000867546,
+    "retrieval_similarity": 0.9279523994147421
+  },
+  {
+    "question": "What is the membership price?",
+    "expected": "free",
+    "answerable": true,
+    "retrieved": [
+      "membership",
+      "loans"
+    ],
+    "retrieval_hit": true,
+    "raw_rag_answer": "Free",
+    "guarded_answer": "Free",
+    "citations": [
+      "membership.txt"
+    ],
+    "baseline_answer": "$45",
+    "raw_correct": true,
+    "guarded_correct": true,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": false,
+    "guard_abstained": false,
+    "rag_generation_seconds": 0.0917151999892667,
+    "baseline_generation_seconds": 0.06533789995592088,
+    "retrieval_similarity": 0.9953983210058501
+  },
+  {
+    "question": "Where should books be returned?",
+    "expected": "main desk",
+    "answerable": true,
+    "retrieved": [
+      "digital",
+      "loans"
+    ],
+    "retrieval_hit": false,
+    "raw_rag_answer": "Lumen Library",
+    "guarded_answer": "Lumen Library",
+    "citations": [
+      "digital.txt",
+      "loans.txt"
+    ],
+    "baseline_answer": "a library",
+    "raw_correct": false,
+    "guarded_correct": false,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": false,
+    "guard_abstained": false,
+    "rag_generation_seconds": 0.1319688000367023,
+    "baseline_generation_seconds": 0.08059900003718212,
+    "retrieval_similarity": 0.7546505592284665
+  },
+  {
+    "question": "Is there an outdoor return box?",
+    "expected": "no",
+    "answerable": true,
+    "retrieved": [
+      "returns",
+      "loans"
+    ],
+    "retrieval_hit": true,
+    "raw_rag_answer": "No",
+    "guarded_answer": "No",
+    "citations": [
+      "returns.txt",
+      "loans.txt"
+    ],
+    "baseline_answer": "yes",
+    "raw_correct": true,
+    "guarded_correct": true,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": false,
+    "guard_abstained": false,
+    "rag_generation_seconds": 0.10397359996568412,
+    "baseline_generation_seconds": 0.06326399999670684,
+    "retrieval_similarity": 0.9913211840598966
+  },
+  {
+    "question": "How long can a study room be booked?",
+    "expected": "2 hours",
+    "answerable": true,
+    "retrieved": [
+      "rooms",
+      "returns"
+    ],
+    "retrieval_hit": true,
+    "raw_rag_answer": "2 hours",
+    "guarded_answer": "2 hours",
+    "citations": [
+      "rooms.txt"
+    ],
+    "baseline_answer": "a few days",
+    "raw_correct": true,
+    "guarded_correct": true,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": false,
+    "guard_abstained": false,
+    "rag_generation_seconds": 0.09632770001189783,
+    "baseline_generation_seconds": 0.10247049998724833,
+    "retrieval_similarity": 0.9990674068569483
+  },
+  {
+    "question": "How many people can use a study room together?",
+    "expected": "6",
+    "answerable": true,
+    "retrieved": [
+      "rooms",
+      "returns"
+    ],
+    "retrieval_hit": true,
+    "raw_rag_answer": "6",
+    "guarded_answer": "6",
+    "citations": [
+      "rooms.txt"
+    ],
+    "baseline_answer": "ten",
+    "raw_correct": true,
+    "guarded_correct": true,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": false,
+    "guard_abstained": false,
+    "rag_generation_seconds": 0.0877796999993734,
+    "baseline_generation_seconds": 0.054950600024312735,
+    "retrieval_similarity": 0.9990674068569483
+  },
+  {
+    "question": "After how many minutes of absence is a room booking cancelled?",
+    "expected": "15",
+    "answerable": true,
+    "retrieved": [
+      "rooms",
+      "returns"
+    ],
+    "retrieval_hit": true,
+    "raw_rag_answer": "15",
+    "guarded_answer": "15",
+    "citations": [
+      "rooms.txt"
+    ],
+    "baseline_answer": "0",
+    "raw_correct": true,
+    "guarded_correct": true,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": false,
+    "guard_abstained": false,
+    "rag_generation_seconds": 0.06854840001324192,
+    "baseline_generation_seconds": 0.054149200033862144,
+    "retrieval_similarity": 0.9990674068569485
+  },
+  {
+    "question": "How long does a digital book loan last?",
+    "expected": "21 days",
+    "answerable": true,
+    "retrieved": [
+      "digital",
+      "returns"
+    ],
+    "retrieval_hit": true,
+    "raw_rag_answer": "21 days",
+    "guarded_answer": "21 days",
+    "citations": [
+      "digital.txt"
+    ],
+    "baseline_answer": "a few days",
+    "raw_correct": true,
+    "guarded_correct": true,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": false,
+    "guard_abstained": false,
+    "rag_generation_seconds": 0.07990260003134608,
+    "baseline_generation_seconds": 0.07413369999267161,
+    "retrieval_similarity": 0.8950138685996434
+  },
+  {
+    "question": "Can digital book loans be renewed?",
+    "expected": "cannot",
+    "answerable": true,
+    "retrieved": [
+      "digital",
+      "loans"
+    ],
+    "retrieval_hit": true,
+    "raw_rag_answer": "Digital loans cannot be renewed",
+    "guarded_answer": "Digital loans cannot be renewed",
+    "citations": [
+      "digital.txt"
+    ],
+    "baseline_answer": "No",
+    "raw_correct": true,
+    "guarded_correct": true,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": false,
+    "guard_abstained": false,
+    "rag_generation_seconds": 0.11034600000130013,
+    "baseline_generation_seconds": 0.05145899998024106,
+    "retrieval_similarity": 0.8865559985029214
+  },
+  {
+    "question": "How many digital books can a member borrow?",
+    "expected": "5",
+    "answerable": true,
+    "retrieved": [
+      "digital",
+      "loans"
+    ],
+    "retrieval_hit": true,
+    "raw_rag_answer": "5",
+    "guarded_answer": "5",
+    "citations": [
+      "digital.txt"
+    ],
+    "baseline_answer": "six",
+    "raw_correct": true,
+    "guarded_correct": true,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": false,
+    "guard_abstained": false,
+    "rag_generation_seconds": 0.06751490000169724,
+    "baseline_generation_seconds": 0.04158290004124865,
+    "retrieval_similarity": 0.9805397960302336
+  },
+  {
+    "question": "What is the support response time?",
+    "expected": "2 working days",
+    "answerable": true,
+    "retrieved": [
+      "support",
+      "digital"
+    ],
+    "retrieval_hit": true,
+    "raw_rag_answer": "2 working days",
+    "guarded_answer": "2 working days",
+    "citations": [
+      "support.txt"
+    ],
+    "baseline_answer": "8:00 AM",
+    "raw_correct": true,
+    "guarded_correct": true,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": false,
+    "guard_abstained": false,
+    "rag_generation_seconds": 0.09631439996883273,
+    "baseline_generation_seconds": 0.06281610002042726,
+    "retrieval_similarity": 0.72443162462132
+  },
+  {
+    "question": "What is the replacement fee for a damaged book?",
+    "expected": "UNKNOWN",
+    "answerable": false,
+    "retrieved": [
+      "returns",
+      "loans"
+    ],
+    "retrieval_hit": true,
+    "raw_rag_answer": "a librarian",
+    "guarded_answer": "a librarian",
+    "citations": [
+      "returns.txt"
+    ],
+    "baseline_answer": "$500,000",
+    "raw_correct": false,
+    "guarded_correct": false,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": false,
+    "guard_abstained": false,
+    "rag_generation_seconds": 0.11829509999370202,
+    "baseline_generation_seconds": 0.07713809999404475,
+    "retrieval_similarity": 0.9879747602350254
+  },
+  {
+    "question": "What is the library phone number?",
+    "expected": "UNKNOWN",
+    "answerable": false,
+    "retrieved": [
+      "support",
+      "returns"
+    ],
+    "retrieval_hit": true,
+    "raw_rag_answer": "[0]",
+    "guarded_answer": "UNKNOWN",
+    "citations": [],
+    "baseline_answer": "9315",
+    "raw_correct": false,
+    "guarded_correct": true,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": true,
+    "guard_abstained": true,
+    "rag_generation_seconds": 0.10522909997962415,
+    "baseline_generation_seconds": 0.07298500003525987,
+    "retrieval_similarity": 0.9934609548039263
+  },
+  {
+    "question": "Who is the current library director?",
+    "expected": "UNKNOWN",
+    "answerable": false,
+    "retrieved": [
+      "loans",
+      "hours"
+    ],
+    "retrieval_hit": null,
+    "raw_rag_answer": "Jeremy Corbett",
+    "guarded_answer": "UNKNOWN",
+    "citations": [],
+    "baseline_answer": "John C. Smith",
+    "raw_correct": false,
+    "guarded_correct": true,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": true,
+    "guard_abstained": true,
+    "rag_generation_seconds": 0.17134419997455552,
+    "baseline_generation_seconds": 0.09243409999180585,
+    "retrieval_similarity": 0.6769283251491076
+  },
+  {
+    "question": "What is the price of a library parking ticket?",
+    "expected": "UNKNOWN",
+    "answerable": false,
+    "retrieved": [
+      "loans",
+      "hours"
+    ],
+    "retrieval_hit": null,
+    "raw_rag_answer": "$9.00",
+    "guarded_answer": "UNKNOWN",
+    "citations": [],
+    "baseline_answer": "$45",
+    "raw_correct": false,
+    "guarded_correct": true,
+    "baseline_correct": false,
+    "raw_unsupported_by_substring": true,
+    "guard_abstained": true,
+    "rag_generation_seconds": 0.10809339996194467,
+    "baseline_generation_seconds": 0.07085690001258627,
+    "retrieval_similarity": 0.6769283251491076
+  }
+]

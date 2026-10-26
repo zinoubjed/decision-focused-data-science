@@ -1,0 +1,44 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 465B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.13-slim
+#2 DONE 0.6s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 64B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 2.01kB done
+#4 DONE 0.0s
+
+#5 [1/5] FROM docker.io/library/python:3.13-slim@sha256:57b29a7c050c4e679e4bea572e14b3965cf4b5839de2da49d55e49ffc4024f39
+#5 resolve docker.io/library/python:3.13-slim@sha256:57b29a7c050c4e679e4bea572e14b3965cf4b5839de2da49d55e49ffc4024f39 0.1s done
+#5 DONE 0.1s
+
+#6 [2/5] WORKDIR /app
+#6 CACHED
+
+#7 [3/5] RUN pip install --no-cache-dir fastapi==0.161.1 uvicorn==0.38.0
+#7 CACHED
+
+#8 [4/5] RUN useradd --create-home appuser
+#8 CACHED
+
+#9 [5/5] COPY src/lab_api.py /app/lab_api.py
+#9 DONE 0.1s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 0.2s done
+#10 exporting manifest sha256:f8b68e1dc5d9b1b9a2601e7b99570157f120734e5c65de9e3352ec756614381c 0.0s done
+#10 exporting config sha256:c88a2faef41abc28cc9a31f4c5fad6f334d5880bae818972653972debfbcf555 0.0s done
+#10 exporting attestation manifest sha256:10ba96727caa7d68c768bb565f550d14f54abfefbbc6a09c0b0e8468ced3d0ec
+#10 exporting attestation manifest sha256:10ba96727caa7d68c768bb565f550d14f54abfefbbc6a09c0b0e8468ced3d0ec 0.0s done
+#10 exporting manifest list sha256:8742d4b2beb7fefb294c2940745e125e91cbc4582b0e674bc266baf927d4ce34 0.0s done
+#10 naming to docker.io/library/dfds-lab4:review done
+#10 unpacking to docker.io/library/dfds-lab4:review 0.1s done
+#10 DONE 0.4s

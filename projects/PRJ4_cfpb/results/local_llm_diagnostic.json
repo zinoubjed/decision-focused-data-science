@@ -1,0 +1,25 @@
+{
+  "model": "google/flan-t5-small, pinned local revision in reports/model_manifest.json",
+  "evaluation": "54 retained chronological test cases, six per class; diagnostic only, class-balanced and not representative prevalence",
+  "n": 54,
+  "llm_accuracy": 0.12962962962962962,
+  "llm_macro_f1": 0.05513784461152882,
+  "tfidf_accuracy_same_subset": 0.6481481481481481,
+  "tfidf_macro_f1_same_subset": 0.6334794834794835,
+  "invalid_output_abstentions": 0,
+  "mean_seconds_including_tokenization": 0.14211475555634093,
+  "p95_seconds": 0.24040313002187752,
+  "prompt_limit": "first 1200 characters; max 512 input tokens; options included in limit",
+  "max_new_tokens": 4,
+  "external_model_api_calls": 0,
+  "api_charge": 0,
+  "cost_limit": "Local electricity/hardware cost not measured",
+  "privacy": "All inference local; no complaint text, prompt, generated text, vocabulary or ID exported. Only aggregate metrics/confusion labels.",
+  "decision": "No production selection from this small diagnostic; retain validated TF-IDF pipeline.",
+  "limits": [
+    "Tiny general model, no domain tuning.",
+    "Balanced 54-case sample differs from main temporal test.",
+    "Original taxonomy is a consumer-selected proxy.",
+    "Truncation may remove decisive evidence."
+  ]
+}

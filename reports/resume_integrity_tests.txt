@@ -1,0 +1,12 @@
+test_cfpb_audited_archives_reconcile (test_audit.AuditEvidence.test_cfpb_audited_archives_reconcile) ... ok
+test_cfpb_complete_manifest (test_audit.AuditEvidence.test_cfpb_complete_manifest) ... ok
+test_duplicate_count_across_chunk_boundaries (test_audit.AuditEvidence.test_duplicate_count_across_chunk_boundaries) ... ok
+test_metro_period_and_exposure (test_audit.AuditEvidence.test_metro_period_and_exposure) ... ok
+test_olist_denominator_and_join (test_audit.AuditEvidence.test_olist_denominator_and_join) ... ok
+test_original_archives (test_audit.AuditEvidence.test_original_archives) ... ok
+test_retail_sheet_reconciliation (test_audit.AuditEvidence.test_retail_sheet_reconciliation) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 3.766s
+
+OK

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "digital",
+    "text": "Lumen Library digital books expire after 21 days. Digital loans cannot be renewed. Members can borrow at most 5 digital books at a time. Offline access requires downloading before the loan expires.",
+    "source": "digital.txt",
+    "sha256": "b4b08f76f85f85a0067402e34df03fe1409c324efb986017d444a1d585d0e37a"
+  },
+  {
+    "id": "holds",
+    "text": "Lumen Library reservations are held for 3 days after notification. Members can reserve at most 4 books at once. Uncollected reservations are released to the next member after the holding period.",
+    "source": "holds.txt",
+    "sha256": "5ff856396a3917dd7c900df82aac6feeac15729241963bc948ad049ee57d1f27"
+  },
+  {
+    "id": "hours",
+    "text": "Lumen Library opens at 09:00 from Monday to Friday and closes at 18:00. Saturday opening is 10:00 to 14:00. The library is closed on Sunday. These are fictional benchmark rules, not real opening hours.",
+    "source": "hours.txt",
+    "sha256": "d9187d37f8c9ca0904151b234025d17633dee19ffc7434df5bd6dbe594171d08"
+  },
+  {
+    "id": "loans",
+    "text": "Lumen Library is a fictional benchmark organisation. Standard book loans last 14 days. A member may renew a book once, provided no other member has reserved it. Reference books must remain inside the library.",
+    "source": "loans.txt",
+    "sha256": "eba639989af572c99675ae11580dd42fe4655701a3cc4d184ed53627e76d8849"
+  },
+  {
+    "id": "membership",
+    "text": "Lumen Library membership is free. A member must present an identification document at registration. The fictional benchmark stores no identity documents or personal information. Guest access allows reading on site only.",
+    "source": "membership.txt",
+    "sha256": "59d9ba1002dd9ffd3c230fcfdc6afcc1a1504cf55752fe8f4037d489cd8618af"
+  },
+  {
+    "id": "returns",
+    "text": "Lumen Library accepts book returns at the main desk during opening hours. There is no outdoor return box. A damaged book must be reported to a librarian. The replacement fee for damaged books is not specified in this handbook.",
+    "source": "returns.txt",
+    "sha256": "2274479eab3773f6c0807b35af499f5d82fcad57a58de10adef21707e1f6c608"
+  },
+  {
+    "id": "rooms",
+    "text": "Lumen Library study rooms can be booked for 2 hours. A group can have at most 6 people. A booking is cancelled if nobody arrives within 15 minutes. Food is prohibited in study rooms.",
+    "source": "rooms.txt",
+    "sha256": "c6215e0a2457c9202289bf4db7012c2b6cf8b3ea5eb8fcaadcd9b7df20f64b43"
+  },
+  {
+    "id": "support",
+    "text": "Lumen Library support replies within 2 working days. Questions about lost property are handled by the main desk. The handbook does not specify a phone number or an email address. Never invent contact details.",
+    "source": "support.txt",
+    "sha256": "efe1b973ee2a5d8e0595b25d2b6aa1894de3edb66a72c74dc3dabf7e8faf71b6"
+  }
+]

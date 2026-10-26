@@ -1,0 +1,28 @@
+{
+  "annual_seasonal": {
+    "n_weeks": 26,
+    "MAE_GBP": 33010.656923076924,
+    "WAPE": 0.1433723939414789,
+    "bias_GBP": 10315.816923076925
+  },
+  "last_week": {
+    "n_weeks": 26,
+    "MAE_GBP": 46255.295,
+    "WAPE": 0.20089671017674418,
+    "bias_GBP": 7886.213461538461
+  },
+  "recent_4_mean": {
+    "n_weeks": 26,
+    "MAE_GBP": 35200.75080769231,
+    "WAPE": 0.1528844434570519,
+    "bias_GBP": 17004.776923076926
+  },
+  "selection": {
+    "method": "minimum MAE on origins before final 26 weeks",
+    "selected": "annual_seasonal",
+    "calibration_weeks": 25,
+    "absolute_error_90_quantile_GBP": 61501.138999999996,
+    "test_coverage": 0.8846153846153846,
+    "caveat": "Small calibration set, serial dependence, no guaranteed coverage."
+  }
+}

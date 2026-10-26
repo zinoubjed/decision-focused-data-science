@@ -1,0 +1,142 @@
+{
+  "scope": "Fresh archive extraction and copied frozen raw files; no prior processed cache. Existing pinned Python environments, Java and local model assets reused. No Docker or remote run.",
+  "exit_code": 0,
+  "commands": [
+    {
+      "group": "core",
+      "script": "download.py",
+      "start_utc": "2026-10-23T12:44:29.734538+00:00",
+      "end_utc": "2026-10-23T12:44:47.500424+00:00",
+      "exit_code": 0,
+      "log": "reports\\reproduction_run\\download.py.txt"
+    },
+    {
+      "group": "core",
+      "script": "retail_production.py",
+      "start_utc": "2026-10-23T12:44:47.501084+00:00",
+      "end_utc": "2026-10-23T12:45:59.964672+00:00",
+      "exit_code": 0,
+      "log": "reports\\reproduction_run\\retail_production.py.txt"
+    },
+    {
+      "group": "core",
+      "script": "olist_production.py",
+      "start_utc": "2026-10-23T12:45:59.965234+00:00",
+      "end_utc": "2026-10-23T12:46:06.842244+00:00",
+      "exit_code": 0,
+      "log": "reports\\reproduction_run\\olist_production.py.txt"
+    },
+    {
+      "group": "core",
+      "script": "cfpb_production.py",
+      "start_utc": "2026-10-23T12:46:06.843307+00:00",
+      "end_utc": "2026-10-23T12:52:19.765444+00:00",
+      "exit_code": 0,
+      "log": "reports\\reproduction_run\\cfpb_production.py.txt"
+    },
+    {
+      "group": "core",
+      "script": "review_cfpb.py",
+      "start_utc": "2026-10-23T12:52:19.766147+00:00",
+      "end_utc": "2026-10-23T12:52:24.743733+00:00",
+      "exit_code": 0,
+      "log": "reports\\reproduction_run\\review_cfpb.py.txt"
+    },
+    {
+      "group": "core",
+      "script": "review_olist.py",
+      "start_utc": "2026-10-23T12:52:24.744469+00:00",
+      "end_utc": "2026-10-23T12:52:27.192414+00:00",
+      "exit_code": 0,
+      "log": "reports\\reproduction_run\\review_olist.py.txt"
+    },
+    {
+      "group": "core",
+      "script": "metro_production.py",
+      "start_utc": "2026-10-23T12:52:27.192930+00:00",
+      "end_utc": "2026-10-23T12:52:32.268199+00:00",
+      "exit_code": 0,
+      "log": "reports\\reproduction_run\\metro_production.py.txt"
+    },
+    {
+      "group": "core",
+      "script": "lab_api_smoke.py",
+      "start_utc": "2026-10-23T12:52:32.268888+00:00",
+      "end_utc": "2026-10-23T12:52:34.231092+00:00",
+      "exit_code": 0,
+      "log": "reports\\reproduction_run\\lab_api_smoke.py.txt"
+    },
+    {
+      "group": "labs",
+      "script": "fetch_runtime_assets.py",
+      "start_utc": "2026-10-23T12:52:34.232408+00:00",
+      "end_utc": "2026-10-23T12:52:35.323588+00:00",
+      "exit_code": 0,
+      "log": "reports\\reproduction_run\\fetch_runtime_assets.py.txt"
+    },
+    {
+      "group": "labs",
+      "script": "lab_rag.py",
+      "start_utc": "2026-10-23T12:52:35.324046+00:00",
+      "end_utc": "2026-10-23T12:52:50.758522+00:00",
+      "exit_code": 0,
+      "log": "reports\\reproduction_run\\lab_rag.py.txt"
+    },
+    {
+      "group": "labs",
+      "script": "lab_spark.py",
+      "start_utc": "2026-10-23T12:52:50.759036+00:00",
+      "end_utc": "2026-10-23T12:53:25.632390+00:00",
+      "exit_code": 0,
+      "log": "reports\\reproduction_run\\lab_spark.py.txt"
+    },
+    {
+      "group": "labs",
+      "script": "lab_tensorflow.py",
+      "start_utc": "2026-10-23T12:53:25.633476+00:00",
+      "end_utc": "2026-10-23T12:53:52.881134+00:00",
+      "exit_code": 0,
+      "log": "reports\\reproduction_run\\lab_tensorflow.py.txt"
+    },
+    {
+      "group": "labs",
+      "script": "cfpb_local_llm.py",
+      "start_utc": "2026-10-23T12:53:52.881761+00:00",
+      "end_utc": "2026-10-23T12:54:11.001390+00:00",
+      "exit_code": 0,
+      "log": "reports\\reproduction_run\\cfpb_local_llm.py.txt"
+    }
+  ],
+  "clone_path": "<LOCAL_PATH>",
+  "snapshot_source_sha256": {
+    "audit.py": "10e4639fa19dd106d6064f8fc401c597c811833183791e5e4aacfeb72a1a55aa",
+    "bootstrap_tensorflow.py": "320634fe677ee18c129af964d652a1b53d82d1c5f5a2ec6e0ee371803131786f",
+    "build_portfolio.py": "b6907b981915815ff833fb6c5260cb756bb93d59f2860d83832e6bef5bde2686",
+    "cfpb.py": "e7255b52bc5c6b54c22badb7a5e73a38637ce8fa38a1ef7106d0714216d88395",
+    "cfpb_local_llm.py": "a7604c5c4c572b96babc042b2ab5af9fa06aefc0bf72e16df5d8017830aa00a6",
+    "cfpb_production.py": "4ba8b8632ed4d8c3a286b5e5afe8c019dde4d1685ab1c9f1358cbf635cccc449",
+    "cfpb_temporal.py": "efa4b3412b376138f716d0870b12ea30749790c9d0230f2376bf58f7facd6778",
+    "common.py": "ca5e13a05880a2edc9c5c658c73fc251cf5edcd2292fd9ea69216faf7110fe8c",
+    "download.py": "9fbc0ac0733592c67c0e1da48d5ba4a0bc45dac2be14259a7fff6c7b95e15d27",
+    "fetch_runtime_assets.py": "b021c4b786916012388d6b7697d01ead33570ed29011e6d330d04aac72d31763",
+    "lab_api.py": "7c82d1d6e93b5e9ebd9026189fa0df0daaceee8d845a37bf073a01be6d7c4d35",
+    "lab_api_smoke.py": "b108e4c1bc48ebeea5a3d188bb9d7f728f1e18ee0579768ffa1865fe9a3ba5d7",
+    "lab_rag.py": "3ac7634f9419307f002d44cf44e60b833699aeb0c392dccd4c77fbe36370a500",
+    "lab_spark.py": "a6548874f3706d64e546011008f1569ee2265ba70008a7da504ea0e516d0bd9e",
+    "lab_tensorflow.py": "cc69194fcb783cc866f3c83791a929e8cb012128641e95e50ba297d78089c946",
+    "metro_production.py": "6af929e0513b45b57857b68f9690585f0e8485c5727d90f8b48607912fef842f",
+    "models.py": "76c25bb8ea12ec01e0ae61cb2710f0eb649232250005741fb8b1098921e97d85",
+    "olist_production.py": "f1c3a677b8fd71d14b4701587dd1c0617b752f32e0400a63c786694ff5543c55",
+    "package_release.py": "d65feb21d783560142becf17a60a2ad37e9ec450421e8376fdad999393c59177",
+    "prepare_publication.py": "04c13d4d599b218c23fa82efbee080c1b5dfe3aa1e51d7820bbc65a6ada7bf37",
+    "render_results.py": "306e183b4dc28ca9e18518eee12ff0b7f2b7a83294b263c8baaaac873641d4c3",
+    "report.py": "061b838fa3c5cc4505bf0cab545e7b3ef7e6e7ec32108d80a13cdb5e31c4df98",
+    "retail_production.py": "ea7c5c5ec0e67c9940abd1a5df4ee79501f0867c20e320861b37152eebdb18cb",
+    "review_cfpb.py": "33fddd8d1a3feb0b098ccfe2810632150b62b64a26f38373ff5bcf2cfc5462c1",
+    "review_olist.py": "792e5f953c46234e8ccf282e1f8a7ee249fc718e0e188773553bef7be4dbb53a",
+    "run_pipeline.py": "141842a1fd4ad9c4349835174d54d9f99e1173db19b8fdcd1ae7d3e4b12eebba",
+    "score_rag.py": "75aa0ca20112ab6b069ad74721a8d902291e4b719fcc7de036a0d0fa92623336"
+  },
+  "snapshot_archive_sha256": "1abf3cb3bd54bbd9013d33210f7e7d8febc3fce5f93273c7a1830011dfb35d5d",
+  "final_source_scope": "The extracted source snapshot completed 13 commands. Later common probability-bound clamping, provenance logging and editorial/release edits are separately tested; final source differences are listed in isolated_comparison.json."
+}

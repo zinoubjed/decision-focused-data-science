@@ -1,0 +1,222 @@
+[
+  {
+    "question": "How many days does a standard book loan last?",
+    "answerable": true,
+    "baseline_answer_correct": false,
+    "raw_rag_answer_correct": true,
+    "guarded_answer_correct": true,
+    "abstained": false,
+    "declared_reference_document": "loans.txt",
+    "citation_count": 1,
+    "reference_document_matches": 1
+  },
+  {
+    "question": "How many renewals are allowed for a standard book?",
+    "answerable": true,
+    "baseline_answer_correct": false,
+    "raw_rag_answer_correct": true,
+    "guarded_answer_correct": true,
+    "abstained": false,
+    "declared_reference_document": "loans.txt",
+    "citation_count": 1,
+    "reference_document_matches": 1
+  },
+  {
+    "question": "When does the library open on weekdays?",
+    "answerable": true,
+    "baseline_answer_correct": false,
+    "raw_rag_answer_correct": false,
+    "guarded_answer_correct": false,
+    "abstained": true,
+    "declared_reference_document": "hours.txt",
+    "citation_count": 0,
+    "reference_document_matches": 0
+  },
+  {
+    "question": "Is the library open on Sunday?",
+    "answerable": true,
+    "baseline_answer_correct": true,
+    "raw_rag_answer_correct": true,
+    "guarded_answer_correct": true,
+    "abstained": false,
+    "declared_reference_document": "hours.txt",
+    "citation_count": 1,
+    "reference_document_matches": 1
+  },
+  {
+    "question": "How long are reservations held after notification?",
+    "answerable": true,
+    "baseline_answer_correct": false,
+    "raw_rag_answer_correct": true,
+    "guarded_answer_correct": true,
+    "abstained": false,
+    "declared_reference_document": "holds.txt",
+    "citation_count": 1,
+    "reference_document_matches": 1
+  },
+  {
+    "question": "What is the maximum number of simultaneous reservations?",
+    "answerable": true,
+    "baseline_answer_correct": false,
+    "raw_rag_answer_correct": true,
+    "guarded_answer_correct": true,
+    "abstained": false,
+    "declared_reference_document": "holds.txt",
+    "citation_count": 1,
+    "reference_document_matches": 1
+  },
+  {
+    "question": "What is the membership price?",
+    "answerable": true,
+    "baseline_answer_correct": false,
+    "raw_rag_answer_correct": true,
+    "guarded_answer_correct": true,
+    "abstained": false,
+    "declared_reference_document": "membership.txt",
+    "citation_count": 1,
+    "reference_document_matches": 1
+  },
+  {
+    "question": "Where should books be returned?",
+    "answerable": true,
+    "baseline_answer_correct": false,
+    "raw_rag_answer_correct": false,
+    "guarded_answer_correct": false,
+    "abstained": false,
+    "declared_reference_document": "returns.txt",
+    "citation_count": 2,
+    "reference_document_matches": 0
+  },
+  {
+    "question": "Is there an outdoor return box?",
+    "answerable": true,
+    "baseline_answer_correct": false,
+    "raw_rag_answer_correct": true,
+    "guarded_answer_correct": true,
+    "abstained": false,
+    "declared_reference_document": "returns.txt",
+    "citation_count": 2,
+    "reference_document_matches": 1
+  },
+  {
+    "question": "How long can a study room be booked?",
+    "answerable": true,
+    "baseline_answer_correct": false,
+    "raw_rag_answer_correct": true,
+    "guarded_answer_correct": true,
+    "abstained": false,
+    "declared_reference_document": "rooms.txt",
+    "citation_count": 1,
+    "reference_document_matches": 1
+  },
+  {
+    "question": "How many people can use a study room together?",
+    "answerable": true,
+    "baseline_answer_correct": false,
+    "raw_rag_answer_correct": true,
+    "guarded_answer_correct": true,
+    "abstained": false,
+    "declared_reference_document": "rooms.txt",
+    "citation_count": 1,
+    "reference_document_matches": 1
+  },
+  {
+    "question": "After how many minutes of absence is a room booking cancelled?",
+    "answerable": true,
+    "baseline_answer_correct": false,
+    "raw_rag_answer_correct": true,
+    "guarded_answer_correct": true,
+    "abstained": false,
+    "declared_reference_document": "rooms.txt",
+    "citation_count": 1,
+    "reference_document_matches": 1
+  },
+  {
+    "question": "How long does a digital book loan last?",
+    "answerable": true,
+    "baseline_answer_correct": false,
+    "raw_rag_answer_correct": true,
+    "guarded_answer_correct": true,
+    "abstained": false,
+    "declared_reference_document": "digital.txt",
+    "citation_count": 1,
+    "reference_document_matches": 1
+  },
+  {
+    "question": "Can digital book loans be renewed?",
+    "answerable": true,
+    "baseline_answer_correct": true,
+    "raw_rag_answer_correct": true,
+    "guarded_answer_correct": true,
+    "abstained": false,
+    "declared_reference_document": "digital.txt",
+    "citation_count": 1,
+    "reference_document_matches": 1
+  },
+  {
+    "question": "How many digital books can a member borrow?",
+    "answerable": true,
+    "baseline_answer_correct": false,
+    "raw_rag_answer_correct": true,
+    "guarded_answer_correct": true,
+    "abstained": false,
+    "declared_reference_document": "digital.txt",
+    "citation_count": 1,
+    "reference_document_matches": 1
+  },
+  {
+    "question": "What is the support response time?",
+    "answerable": true,
+    "baseline_answer_correct": false,
+    "raw_rag_answer_correct": true,
+    "guarded_answer_correct": true,
+    "abstained": false,
+    "declared_reference_document": "support.txt",
+    "citation_count": 1,
+    "reference_document_matches": 1
+  },
+  {
+    "question": "What is the replacement fee for a damaged book?",
+    "answerable": false,
+    "baseline_answer_correct": false,
+    "raw_rag_answer_correct": false,
+    "guarded_answer_correct": false,
+    "abstained": false,
+    "declared_reference_document": "returns.txt",
+    "citation_count": 1,
+    "reference_document_matches": 1
+  },
+  {
+    "question": "What is the library phone number?",
+    "answerable": false,
+    "baseline_answer_correct": false,
+    "raw_rag_answer_correct": false,
+    "guarded_answer_correct": true,
+    "abstained": true,
+    "declared_reference_document": "support.txt",
+    "citation_count": 0,
+    "reference_document_matches": 0
+  },
+  {
+    "question": "Who is the current library director?",
+    "answerable": false,
+    "baseline_answer_correct": false,
+    "raw_rag_answer_correct": false,
+    "guarded_answer_correct": true,
+    "abstained": true,
+    "declared_reference_document": null,
+    "citation_count": 0,
+    "reference_document_matches": 0
+  },
+  {
+    "question": "What is the price of a library parking ticket?",
+    "answerable": false,
+    "baseline_answer_correct": false,
+    "raw_rag_answer_correct": false,
+    "guarded_answer_correct": true,
+    "abstained": true,
+    "declared_reference_document": null,
+    "citation_count": 0,
+    "reference_document_matches": 0
+  }
+]

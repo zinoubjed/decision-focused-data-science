@@ -1,0 +1,1 @@
+Lumen Library is a fictional benchmark organisation. Standard book loans last 14 days. A member may renew a book once, provided no other member has reserved it. Reference books must remain inside the library.

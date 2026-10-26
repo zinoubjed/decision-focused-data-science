@@ -1,0 +1,52 @@
+{
+  "grain_rows": 99441,
+  "grain_unique": true,
+  "extract_proxy": "2018-10-17 17:30:18",
+  "maturity_cutoff_60d": "2018-08-18 17:30:18",
+  "eligible_all_dates": 96470,
+  "late_all_dates": 6534,
+  "late_rate_delivered_only": 0.06773090079817559,
+  "mature_eligible": 95019,
+  "mature_late": 6507,
+  "mature_rate": 0.06848104063397847,
+  "maturity_sensitivity": [
+    {
+      "maturity_days_assumption": 30,
+      "all_orders": 99433,
+      "eligible_delivered": 96470,
+      "late": 6534,
+      "late_rate_delivered_only": 0.06773090079817559,
+      "without_eligible_delivery": 2963
+    },
+    {
+      "maturity_days_assumption": 60,
+      "all_orders": 97938,
+      "eligible_delivered": 95019,
+      "late": 6507,
+      "late_rate_delivered_only": 0.06848104063397847,
+      "without_eligible_delivery": 2919
+    },
+    {
+      "maturity_days_assumption": 90,
+      "all_orders": 89912,
+      "eligible_delivered": 87186,
+      "late": 6034,
+      "late_rate_delivered_only": 0.06920835914022894,
+      "without_eligible_delivery": 2726
+    }
+  ],
+  "investigation_rule": ">=100 eligible delivered orders; rank excess late counts vs descriptive pooled reference; no causal interpretation",
+  "population_limit": "Undelivered and incomplete records excluded from late-rate denominator and reported separately. Extract proxy is latest purchase timestamp, not verified export timestamp.",
+  "license": "Olist CC BY-NC-SA 4.0. Noncommercial internal case study only.",
+  "environment": {
+    "python": "3.13.1",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "packages": {
+      "pandas": "2.2.3",
+      "numpy": "2.5.4",
+      "scikit-learn": "1.9.1",
+      "fastapi": "0.161.1",
+      "matplotlib": "3.11.2"
+    }
+  }
+}

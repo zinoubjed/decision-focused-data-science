@@ -1,0 +1,19 @@
+name: Local baseline API validation
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  api-and-container:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: pip install fastapi==0.161.1 httpx==0.28.1 pytest==9.1.1
+      - run: python -m unittest tests.test_api_ci -v
+      - run: docker build -t decision-api:ci .
+      - run: |
+          docker run -d --name decision-api -p 127.0.0.1:8000:8000 decision-api:ci
+          trap 'docker rm -f decision-api' EXIT
+          python -c "import time,urllib.request; time.sleep(5); print(urllib.request.urlopen('http://127.0.0.1:8000/health').read())"

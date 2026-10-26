@@ -1,0 +1,21 @@
+{
+  "tensorflow": {
+    "initial_error": "OSError [Errno 2] on a tensorflow/include/external/envoy_api/.../client_side_weighted_round_robin.upb_minitable.h path; pip MAX_PATH hint",
+    "resolution": "Official wheel Python runtime/libraries extracted in workspace, unused C++ custom-op header subtree omitted; actual TensorFlow 2.21 import and three Keras training runs completed",
+    "system_registry_changed": false
+  },
+  "api_tests": {
+    "initial_error": "Windows asyncio internal socketpair blocked at socket.accept under restricted network sandbox",
+    "resolution": "Loopback-authorised ASGI tests passed and real 127.0.0.1 HTTP smoke passed; temporary server stopped"
+  },
+  "spark": {
+    "initial_error": "HADOOP_HOME/winutils absent during real Spark Parquet write",
+    "intermediate_error": "BareLocalFileSystem class not yet present on driver bootstrap classpath",
+    "resolution": "Pinned Apache-2.0 pure-Java filesystem JAR added to driver and executor classpaths before filesystem lookup; Spark Parquet write/read and pandas parity completed"
+  },
+  "docker": {
+    "status": "BLOCKED",
+    "evidence": "docker not in PATH; standard Docker Desktop executable path absent",
+    "not_claimed": "container build/run, remote CI or cloud deployment"
+  }
+}

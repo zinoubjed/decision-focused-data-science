@@ -1,0 +1,78 @@
+{
+  "dataset": "sklearn bundled UCI optical digits, 1797 8x8 images; original UCI optical recognition donation; non-overlapping random stratified sample split, not writer-disjoint",
+  "source": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html",
+  "split_sizes": {
+    "train": 1078,
+    "validation": 359,
+    "test": 360
+  },
+  "split_seed": 42,
+  "baseline": {
+    "fit_seconds": 0.022950700018554926,
+    "validation_accuracy": 0.9665738161559888,
+    "test_accuracy": 0.9638888888888889,
+    "test_macro_f1": 0.9639731924398127,
+    "test_log_loss": 0.12633167207241058
+  },
+  "tensorflow_runs": [
+    {
+      "seed": 42,
+      "epochs": 57,
+      "parameters": 6570,
+      "fit_seconds": 5.867590899986681,
+      "test_accuracy": 0.9722222222222222,
+      "test_macro_f1": 0.9720968059302413,
+      "test_log_loss": 0.09237081557512283,
+      "validation_accuracy": 0.9777158774373259,
+      "final_train_accuracy": 0.9814471006393433,
+      "final_validation_accuracy": 0.9721448421478271
+    },
+    {
+      "seed": 43,
+      "epochs": 60,
+      "parameters": 6570,
+      "fit_seconds": 5.939127899997402,
+      "test_accuracy": 0.9666666666666667,
+      "test_macro_f1": 0.9664461634308663,
+      "test_log_loss": 0.10861462354660034,
+      "validation_accuracy": 0.9749303621169917,
+      "final_train_accuracy": 0.9833024144172668,
+      "final_validation_accuracy": 0.9749303460121155
+    },
+    {
+      "seed": 44,
+      "epochs": 54,
+      "parameters": 6570,
+      "fit_seconds": 5.920346200000495,
+      "test_accuracy": 0.9694444444444444,
+      "test_macro_f1": 0.9693396850436755,
+      "test_log_loss": 0.1132214367389679,
+      "validation_accuracy": 0.9693593314763231,
+      "final_train_accuracy": 0.9833024144172668,
+      "final_validation_accuracy": 0.9693593382835388
+    }
+  ],
+  "validation_mean_network_accuracy": 0.9740018570102137,
+  "decision_rule": "Retain MLP only if mean validation accuracy across 3 initialisation seeds >= baseline +0.01; test does not select model",
+  "retained": "logistic_regression",
+  "limits": [
+    "Small image benchmark, not an industrial deployment.",
+    "Same split across seeds: measures initialization variability, not independent test replication.",
+    "No writer identifiers; writer leakage cannot be excluded."
+  ],
+  "environment": {
+    "python": "3.13.1",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "packages": {
+      "pandas": "3.1.0",
+      "numpy": "2.5.4",
+      "scikit-learn": "1.9.1",
+      "tensorflow": "2.21.0",
+      "torch": "2.14.1",
+      "transformers": "5.20.2",
+      "pyspark": "4.2.0",
+      "fastapi": "0.161.1",
+      "matplotlib": "3.11.2"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "reference": "Master Brief + resumption authorisation + continue critical review",
+  "unit_and_artifact_tests_passed": 33,
+  "fresh_snapshot_commands": 13,
+  "fresh_snapshot_all_exit_zero": true,
+  "substantive_comparisons": 40,
+  "all_comparisons_match": true,
+  "data_scope": "Frozen originals intact; no raw/private data or model artifacts in archive. Approved public derived evidence included.",
+  "model_decisions": {
+    "retail_interval": "Nominal 90% scenario fails empirical 61.54% coverage, no guarantee",
+    "cfpb": "Human-verified suggestions only; automatic routing STOP",
+    "rag": "Explicit post-run rubric 10/70/85%; semantic guard failure remains",
+    "tensorflow": "Logistic baseline retained under validation complexity rule"
+  },
+  "pending_external_actions": [
+    "Exact platform/content approval and owner code license before publication"
+  ],
+  "post_docker_update": "2026-10-23: API NaN response regression fixed; actual container and existing Telco verified",
+  "telco": {
+    "original_tests": 3,
+    "executed_notebook_cells": 9,
+    "report_csv_matches": 5,
+    "tracked_git_blobs_verified": 29
+  },
+  "docker": "Actual build/run, health 200, forecast53, five422cases, healthy healthcheck, UID1000, stopped exit0"
+}

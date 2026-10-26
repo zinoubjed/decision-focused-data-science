@@ -1,0 +1,328 @@
+{
+  "training_valid_bins": 3523,
+  "test_bins": 26520,
+  "test_invalid_bins": 6049,
+  "bin_availability": "10-minute medians labeled by closing time; >=54 raw observations per bin and 3 consecutive valid bins for alert; missing/undercovered bins break persistence",
+  "results": [
+    {
+      "threshold": 2.5168438538204927,
+      "valid_bins": 20471,
+      "observed_days_equivalent": 142.15972222222223,
+      "alert_bins": 2874,
+      "alert_hours": 479.0,
+      "episodes": 443,
+      "episodes_no_overlap_report": 436,
+      "unverified_episodes_per_observed_day": 3.066972790777197,
+      "event_windows": [
+        {
+          "start": "2020-04-18 00:00:00",
+          "end": "2020-04-18 23:59:00",
+          "valid_bins": 140,
+          "alert_during_event": true,
+          "first_during_event": "2020-04-18 01:00:00",
+          "alert_prior_24h": false,
+          "earliest_prior_lead_minutes": null
+        },
+        {
+          "start": "2020-05-29 23:30:00",
+          "end": "2020-05-30 06:00:00",
+          "valid_bins": 40,
+          "alert_during_event": true,
+          "first_during_event": "2020-05-29 23:40:00",
+          "alert_prior_24h": true,
+          "earliest_prior_lead_minutes": 1440.0
+        },
+        {
+          "start": "2020-06-05 10:00:00",
+          "end": "2020-06-07 14:30:00",
+          "valid_bins": 285,
+          "alert_during_event": true,
+          "first_during_event": "2020-06-05 10:20:00",
+          "alert_prior_24h": false,
+          "earliest_prior_lead_minutes": null
+        },
+        {
+          "start": "2020-07-15 14:30:00",
+          "end": "2020-07-15 19:00:00",
+          "valid_bins": 27,
+          "alert_during_event": true,
+          "first_during_event": "2020-07-15 14:30:00",
+          "alert_prior_24h": true,
+          "earliest_prior_lead_minutes": 990.0
+        }
+      ],
+      "model": "robust_max_deviation",
+      "training_quantile": 0.99
+    },
+    {
+      "threshold": 2.999999999996501,
+      "valid_bins": 20471,
+      "observed_days_equivalent": 142.15972222222223,
+      "alert_bins": 1804,
+      "alert_hours": 300.6666666666667,
+      "episodes": 175,
+      "episodes_no_overlap_report": 168,
+      "unverified_episodes_per_observed_day": 1.1817693322260758,
+      "event_windows": [
+        {
+          "start": "2020-04-18 00:00:00",
+          "end": "2020-04-18 23:59:00",
+          "valid_bins": 140,
+          "alert_during_event": true,
+          "first_during_event": "2020-04-18 01:00:00",
+          "alert_prior_24h": false,
+          "earliest_prior_lead_minutes": null
+        },
+        {
+          "start": "2020-05-29 23:30:00",
+          "end": "2020-05-30 06:00:00",
+          "valid_bins": 40,
+          "alert_during_event": true,
+          "first_during_event": "2020-05-29 23:40:00",
+          "alert_prior_24h": true,
+          "earliest_prior_lead_minutes": 810.0
+        },
+        {
+          "start": "2020-06-05 10:00:00",
+          "end": "2020-06-07 14:30:00",
+          "valid_bins": 285,
+          "alert_during_event": true,
+          "first_during_event": "2020-06-05 10:20:00",
+          "alert_prior_24h": false,
+          "earliest_prior_lead_minutes": null
+        },
+        {
+          "start": "2020-07-15 14:30:00",
+          "end": "2020-07-15 19:00:00",
+          "valid_bins": 27,
+          "alert_during_event": true,
+          "first_during_event": "2020-07-15 14:30:00",
+          "alert_prior_24h": true,
+          "earliest_prior_lead_minutes": 920.0
+        }
+      ],
+      "model": "robust_max_deviation",
+      "training_quantile": 0.995
+    },
+    {
+      "threshold": 3.6909700996677834,
+      "valid_bins": 20471,
+      "observed_days_equivalent": 142.15972222222223,
+      "alert_bins": 1196,
+      "alert_hours": 199.33333333333334,
+      "episodes": 58,
+      "episodes_no_overlap_report": 51,
+      "unverified_episodes_per_observed_day": 0.358751404425773,
+      "event_windows": [
+        {
+          "start": "2020-04-18 00:00:00",
+          "end": "2020-04-18 23:59:00",
+          "valid_bins": 140,
+          "alert_during_event": true,
+          "first_during_event": "2020-04-18 01:00:00",
+          "alert_prior_24h": false,
+          "earliest_prior_lead_minutes": null
+        },
+        {
+          "start": "2020-05-29 23:30:00",
+          "end": "2020-05-30 06:00:00",
+          "valid_bins": 40,
+          "alert_during_event": true,
+          "first_during_event": "2020-05-29 23:40:00",
+          "alert_prior_24h": false,
+          "earliest_prior_lead_minutes": null
+        },
+        {
+          "start": "2020-06-05 10:00:00",
+          "end": "2020-06-07 14:30:00",
+          "valid_bins": 285,
+          "alert_during_event": true,
+          "first_during_event": "2020-06-05 10:20:00",
+          "alert_prior_24h": false,
+          "earliest_prior_lead_minutes": null
+        },
+        {
+          "start": "2020-07-15 14:30:00",
+          "end": "2020-07-15 19:00:00",
+          "valid_bins": 27,
+          "alert_during_event": true,
+          "first_during_event": "2020-07-15 14:30:00",
+          "alert_prior_24h": true,
+          "earliest_prior_lead_minutes": 840.0
+        }
+      ],
+      "model": "robust_max_deviation",
+      "training_quantile": 0.999
+    },
+    {
+      "threshold": 0.6118951763610905,
+      "valid_bins": 20471,
+      "observed_days_equivalent": 142.15972222222223,
+      "alert_bins": 1111,
+      "alert_hours": 185.16666666666666,
+      "episodes": 51,
+      "episodes_no_overlap_report": 44,
+      "unverified_episodes_per_observed_day": 0.30951101558301986,
+      "event_windows": [
+        {
+          "start": "2020-04-18 00:00:00",
+          "end": "2020-04-18 23:59:00",
+          "valid_bins": 140,
+          "alert_during_event": true,
+          "first_during_event": "2020-04-18 01:00:00",
+          "alert_prior_24h": false,
+          "earliest_prior_lead_minutes": null
+        },
+        {
+          "start": "2020-05-29 23:30:00",
+          "end": "2020-05-30 06:00:00",
+          "valid_bins": 40,
+          "alert_during_event": true,
+          "first_during_event": "2020-05-29 23:40:00",
+          "alert_prior_24h": false,
+          "earliest_prior_lead_minutes": null
+        },
+        {
+          "start": "2020-06-05 10:00:00",
+          "end": "2020-06-07 14:30:00",
+          "valid_bins": 285,
+          "alert_during_event": true,
+          "first_during_event": "2020-06-05 10:20:00",
+          "alert_prior_24h": false,
+          "earliest_prior_lead_minutes": null
+        },
+        {
+          "start": "2020-07-15 14:30:00",
+          "end": "2020-07-15 19:00:00",
+          "valid_bins": 27,
+          "alert_during_event": true,
+          "first_during_event": "2020-07-15 14:30:00",
+          "alert_prior_24h": true,
+          "earliest_prior_lead_minutes": 220.0
+        }
+      ],
+      "model": "isolation_forest",
+      "training_quantile": 0.99
+    },
+    {
+      "threshold": 0.6323584461561574,
+      "valid_bins": 20471,
+      "observed_days_equivalent": 142.15972222222223,
+      "alert_bins": 1038,
+      "alert_hours": 173.0,
+      "episodes": 30,
+      "episodes_no_overlap_report": 23,
+      "unverified_episodes_per_observed_day": 0.16178984905476038,
+      "event_windows": [
+        {
+          "start": "2020-04-18 00:00:00",
+          "end": "2020-04-18 23:59:00",
+          "valid_bins": 140,
+          "alert_during_event": true,
+          "first_during_event": "2020-04-18 01:00:00",
+          "alert_prior_24h": false,
+          "earliest_prior_lead_minutes": null
+        },
+        {
+          "start": "2020-05-29 23:30:00",
+          "end": "2020-05-30 06:00:00",
+          "valid_bins": 40,
+          "alert_during_event": true,
+          "first_during_event": "2020-05-29 23:40:00",
+          "alert_prior_24h": false,
+          "earliest_prior_lead_minutes": null
+        },
+        {
+          "start": "2020-06-05 10:00:00",
+          "end": "2020-06-07 14:30:00",
+          "valid_bins": 285,
+          "alert_during_event": true,
+          "first_during_event": "2020-06-05 10:20:00",
+          "alert_prior_24h": false,
+          "earliest_prior_lead_minutes": null
+        },
+        {
+          "start": "2020-07-15 14:30:00",
+          "end": "2020-07-15 19:00:00",
+          "valid_bins": 27,
+          "alert_during_event": true,
+          "first_during_event": "2020-07-15 14:30:00",
+          "alert_prior_24h": true,
+          "earliest_prior_lead_minutes": 140.0
+        }
+      ],
+      "model": "isolation_forest",
+      "training_quantile": 0.995
+    },
+    {
+      "threshold": 0.6514183452144299,
+      "valid_bins": 20471,
+      "observed_days_equivalent": 142.15972222222223,
+      "alert_bins": 1021,
+      "alert_hours": 170.16666666666666,
+      "episodes": 28,
+      "episodes_no_overlap_report": 21,
+      "unverified_episodes_per_observed_day": 0.14772116652825948,
+      "event_windows": [
+        {
+          "start": "2020-04-18 00:00:00",
+          "end": "2020-04-18 23:59:00",
+          "valid_bins": 140,
+          "alert_during_event": true,
+          "first_during_event": "2020-04-18 01:00:00",
+          "alert_prior_24h": false,
+          "earliest_prior_lead_minutes": null
+        },
+        {
+          "start": "2020-05-29 23:30:00",
+          "end": "2020-05-30 06:00:00",
+          "valid_bins": 40,
+          "alert_during_event": true,
+          "first_during_event": "2020-05-29 23:40:00",
+          "alert_prior_24h": false,
+          "earliest_prior_lead_minutes": null
+        },
+        {
+          "start": "2020-06-05 10:00:00",
+          "end": "2020-06-07 14:30:00",
+          "valid_bins": 285,
+          "alert_during_event": true,
+          "first_during_event": "2020-06-05 10:20:00",
+          "alert_prior_24h": false,
+          "earliest_prior_lead_minutes": null
+        },
+        {
+          "start": "2020-07-15 14:30:00",
+          "end": "2020-07-15 19:00:00",
+          "valid_bins": 27,
+          "alert_during_event": true,
+          "first_during_event": "2020-07-15 14:30:00",
+          "alert_prior_24h": true,
+          "earliest_prior_lead_minutes": 100.0
+        }
+      ],
+      "model": "isolation_forest",
+      "training_quantile": 0.999
+    }
+  ],
+  "event_source": "UCI official table; original intervals retained, duplicate ID/maintenance-date ambiguity unresolved",
+  "no_false_positive_ground_truth": true,
+  "limits": [
+    "Only four report windows and one compressor.",
+    "Unverified outside-report episodes are not proven false positives.",
+    "Threshold grid is sensitivity analysis, not tuned on test event recall.",
+    "Sensor-range baseline uses robust IQR; zero IQR set to one.",
+    "No downtime reduction, safe shutdown or operational predictive-maintenance claim."
+  ],
+  "environment": {
+    "python": "3.13.1",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "packages": {
+      "pandas": "2.2.3",
+      "numpy": "2.5.4",
+      "scikit-learn": "1.9.1",
+      "fastapi": "0.161.1",
+      "matplotlib": "3.11.2"
+    }
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "checks": [
+    {
+      "check": "retail selected model",
+      "reference": "seasonal_52",
+      "reproduced": "seasonal_52",
+      "matches": true
+    },
+    {
+      "check": "retail MAE",
+      "reference": 40170.66038461538,
+      "reproduced": 40170.66038461538,
+      "matches": true
+    },
+    {
+      "check": "retail WAPE",
+      "reference": 0.17402432619507868,
+      "reproduced": 0.17402432619507868,
+      "matches": true
+    },
+    {
+      "check": "retail interval coverage",
+      "reference": 0.6153846153846154,
+      "reproduced": 0.6153846153846154,
+      "matches": true
+    },
+    {
+      "check": "PRJ3_olist grain_rows",
+      "reference": 99441,
+      "reproduced": 99441,
+      "matches": true
+    },
+    {
+      "check": "PRJ3_olist mature_rate",
+      "reference": 0.06848104063397847,
+      "reproduced": 0.06848104063397847,
+      "matches": true
+    },
+    {
+      "check": "PRJ3_olist late_rate_delivered_only",
+      "reference": 0.06773090079817559,
+      "reproduced": 0.06773090079817559,
+      "matches": true
+    },
+    {
+      "check": "PRJ4_cfpb training",
+      "reference": 16463,
+      "reproduced": 16463,
+      "matches": true
+    },
+    {
+      "check": "PRJ4_cfpb validation",
+      "reference": 7464,
+      "reproduced": 7464,
+      "matches": true
+    },
+    {
+      "check": "PRJ4_cfpb test",
+      "reference": 4677,
+      "reproduced": 4677,
+      "matches": true
+    },
+    {
+      "check": "PRJ4_cfpb selected_model",
+      "reference": "logistic_tfidf",
+      "reproduced": "logistic_tfidf",
+      "matches": true
+    },
+    {
+      "check": "PRJ4_cfpb test_macro_f1",
+      "reference": 0.6319920717270681,
+      "reproduced": 0.6319920717270681,
+      "matches": true
+    },
+    {
+      "check": "PRJ4_cfpb accepted",
+      "reference": 3171,
+      "reproduced": 3171,
+      "matches": true
+    },
+    {
+      "check": "PRJ4_cfpb accepted_wrong",
+      "reference": 273,
+      "reproduced": 273,
+      "matches": true
+    },
+    {
+      "check": "PRJ4_cfpb human_review",
+      "reference": 1506,
+      "reproduced": 1506,
+      "matches": true
+    },
+    {
+      "check": "LAB2_pyspark input_rows",
+      "reference": 1516948,
+      "reproduced": 1516948,
+      "matches": true
+    },
+    {
+      "check": "LAB2_pyspark parquet_roundtrip",
+      "reference": true,
+      "reproduced": true,
+      "matches": true
+    },
+    {
+      "check": "LAB2_pyspark null_required",
+      "reference": 0,
+      "reproduced": 0,
+      "matches": true
+    },
+    {
+      "check": "LAB2_pyspark output_month_rows",
+      "reference": 8,
+      "reproduced": 8,
+      "matches": true
+    },
+    {
+      "check": "LAB4_delivery health_http",
+      "reference": 200,
+      "reproduced": 200,
+      "matches": true
+    },
+    {
+      "check": "LAB4_delivery forecast_http",
+      "reference": 200,
+      "reproduced": 200,
+      "matches": true
+    },
+    {
+      "check": "LAB4_delivery invalid_input_http",
+      "reference": 422,
+      "reproduced": 422,
+      "matches": true
+    },
+    {
+      "check": "LAB4_delivery example_forecast",
+      "reference": 53.0,
+      "reproduced": 53.0,
+      "matches": true
+    },
+    {
+      "check": "metro robust_max_deviation 0.99 episodes",
+      "reference": 443,
+      "reproduced": 443,
+      "matches": true
+    },
+    {
+      "check": "metro robust_max_deviation 0.995 episodes",
+      "reference": 175,
+      "reproduced": 175,
+      "matches": true
+    },
+    {
+      "check": "metro robust_max_deviation 0.999 episodes",
+      "reference": 58,
+      "reproduced": 58,
+      "matches": true
+    },
+    {
+      "check": "metro isolation_forest 0.99 episodes",
+      "reference": 51,
+      "reproduced": 51,
+      "matches": true
+    },
+    {
+      "check": "metro isolation_forest 0.995 episodes",
+      "reference": 30,
+      "reproduced": 30,
+      "matches": true
+    },
+    {
+      "check": "metro isolation_forest 0.999 episodes",
+      "reference": 28,
+      "reproduced": 28,
+      "matches": true
+    },
+    {
+      "check": "rag baseline_correct",
+      "reference": 2,
+      "reproduced": 2,
+      "matches": true
+    },
+    {
+      "check": "rag raw_rag_correct",
+      "reference": 14,
+      "reproduced": 14,
+      "matches": true
+    },
+    {
+      "check": "rag guarded_correct",
+      "reference": 17,
+      "reproduced": 17,
+      "matches": true
+    },
+    {
+      "check": "rag reference_document_precision",
+      "reference": 0.8333333333333334,
+      "reproduced": 0.8333333333333334,
+      "matches": true
+    },
+    {
+      "check": "tensorflow selection",
+      "reference": "logistic_regression",
+      "reproduced": "logistic_regression",
+      "matches": true
+    },
+    {
+      "check": "tensorflow baseline",
+      "reference": 0.9638888888888889,
+      "reproduced": 0.9638888888888889,
+      "matches": true
+    },
+    {
+      "check": "tensorflow seed 42",
+      "reference": 0.9722222222222222,
+      "reproduced": 0.9722222222222222,
+      "matches": true
+    },
+    {
+      "check": "tensorflow seed 43",
+      "reference": 0.9666666666666667,
+      "reproduced": 0.9666666666666667,
+      "matches": true
+    },
+    {
+      "check": "tensorflow seed 44",
+      "reference": 0.9694444444444444,
+      "reproduced": 0.9694444444444444,
+      "matches": true
+    },
+    {
+      "check": "local LLM diagnostic llm_accuracy",
+      "reference": 0.12962962962962962,
+      "reproduced": 0.12962962962962962,
+      "matches": true
+    },
+    {
+      "check": "local LLM diagnostic tfidf_accuracy_same_subset",
+      "reference": 0.6481481481481481,
+      "reproduced": 0.6481481481481481,
+      "matches": true
+    }
+  ],
+  "matches": true,
+  "comparison_scope": "Substantive counts/model choices/errors. Hardware timings excluded; TensorFlow accuracy tolerance .006 across CPU reruns.",
+  "code_snapshot_differences_after_extraction": [
+    "common.py",
+    "package_release.py",
+    "prepare_publication.py",
+    "render_results.py",
+    "retail_production.py",
+    "run_pipeline.py"
+  ],
+  "snapshot_scope_note": "Final documentation/editorial packaging and bounded helper/logging edits may follow extraction; differences are listed, not represented as identical final-archive execution."
+}

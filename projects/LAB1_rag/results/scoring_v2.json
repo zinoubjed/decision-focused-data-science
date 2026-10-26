@@ -1,0 +1,24 @@
+{
+  "rubric": "v2 exact normalized accepted aliases, post-run scoring revision; not an untouched new benchmark",
+  "n": 20,
+  "baseline_correct": 2,
+  "raw_rag_correct": 14,
+  "guarded_correct": 17,
+  "baseline_accuracy": 0.1,
+  "raw_rag_accuracy": 0.7,
+  "guarded_accuracy": 0.85,
+  "accepted": 16,
+  "accepted_correct": 14,
+  "selective_accuracy": 0.875,
+  "unanswerable": 4,
+  "correct_refusals": 3,
+  "citation_count": 18,
+  "reference_document_precision": 0.8333333333333334,
+  "correct_answer_and_reference_fraction": 0.7777777777777778,
+  "limits": [
+    "Accepted aliases are an explicit restricted rubric, not a semantic entailment model.",
+    "Source-document agreement does not guarantee that the cited sentence supports the answer.",
+    "Original substring scores and generated outputs are preserved, not overwritten.",
+    "Rubric was clarified after inspecting outputs; no claim of blind human annotation."
+  ]
+}

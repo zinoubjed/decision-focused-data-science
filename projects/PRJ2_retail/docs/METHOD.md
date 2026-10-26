@@ -1,0 +1,15 @@
+# Decision framework, data contract and interpretation
+
+**Input contract.** Two sheets of UCI Online Retail II, eight expected fields. Invoice line grain, naive source timestamps and GBP. Preserve all original bytes. No customer ID is needed for total weekly sales. Reject nonpositive quantity/price and invoice C from the positive-sales target, but count them and report negative signed value separately. Never call this net sales or latent demand.
+
+**Ambiguous repeats.** Primary analysis retains exact repeated positive lines because no line-level source key proves them erroneous. A second pipeline removes exact repeats, using the same calendar and splits. Its improved performance does not prove that removal is correct. Cleaning uncertainty is material: seasonal WAPE differs by about three percentage points.
+
+**Preparation and SQL.** Aggregate revenue to Sunday-ending calendar weeks, excluding incomplete edge weeks. `aggregation.sql` now constructs the same Sunday labels and a recursive calendar, including zero observed-sales weeks. All 106 week labels/values and the overall total reconcile against pandas before edge-week removal. A zero recorded-sales week is not proof of zero latent demand. Sunday date labels are labels only: `decision_time` is Monday 00:00, after the full prior week is available.
+
+**Forecast contract.** One week ahead after the preceding week closes. Features are log lags 1/2/4/13/52 and known seasonal sine/cosine. Expanding Ridge alpha=10, last week, mean of four weeks and annual seasonal naive are compared over identical origins beginning at index 65. Standardization is fitted inside each training fold. Final 26 origins are held out; preceding 13 origins select the model by MAE. No test-driven switch to the best test model is made.
+
+**Uncertainty, revised protocol.** Model selection uses 13 earlier origins. The 26 point-forecast test origins are divided into a subsequent 13-week interval-calibration block and a final 13-week interval-evaluation block. Calibration errors are never reused as interval-evaluation outcomes. The nominal-90% finite-rank historical-error scenario covers only 8/13 final evaluation weeks (61.54%). Temporal dependence, small blocks and seasonal shift mean there is no 90% reliability/conformal guarantee. Do not widen or retune the interval on this test to repair its score. Earlier shared-selection/calibration results are preserved in the pre-review archive and superseded here.
+
+**MRT.** Weekly MAE in GBP, WAPE and actual-minus-forecast bias map to planning deviation. Error-by-month reveals concentrated misses. Underforecast relative costs 1/2/5 versus unit overforecast are assumptions, not staffing costs or ROI. Historical next-week scenarios are for analyst review; no capacity purchase follows automatically.
+
+**Recommendation.** Keep the validation-selected seasonal baseline as the reproducible reference, but expose weak validation volume, cleaning sensitivity and the fact that mean-4 performs better on this held-out period. More calendar history, validated transaction keys and a fresh temporal evaluation would be needed before operational adoption.

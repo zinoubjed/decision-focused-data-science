@@ -1,0 +1,42 @@
+<LOCAL_PATH> StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_health_forecast_and_rejection (test_api_ci.ApiCI.test_health_forecast_and_rejection) ... ok
+test_nonfinite_wire_values_return_422_without_echo (test_api_ci.ApiCI.test_nonfinite_wire_values_return_422_without_echo) ... ok
+test_cfpb_review_and_confusion (test_artifacts.ExecutedArtifacts.test_cfpb_review_and_confusion) ... ok
+test_metro_exposure (test_artifacts.ExecutedArtifacts.test_metro_exposure) ... ok
+test_olist_population_reconciliation (test_artifacts.ExecutedArtifacts.test_olist_population_reconciliation) ... ok
+test_rag_diagnostic_and_refusals (test_artifacts.ExecutedArtifacts.test_rag_diagnostic_and_refusals) ... ok
+test_real_api_and_container_execution_evidence (test_artifacts.ExecutedArtifacts.test_real_api_and_container_execution_evidence) ... ok
+test_real_spark_parquet (test_artifacts.ExecutedArtifacts.test_real_spark_parquet) ... ok
+test_retail_holdout_and_sensitivity (test_artifacts.ExecutedArtifacts.test_retail_holdout_and_sensitivity) ... ok
+test_tensorflow_training_and_rule (test_artifacts.ExecutedArtifacts.test_tensorflow_training_and_rule) ... ok
+test_cfpb_audited_archives_reconcile (test_audit.AuditEvidence.test_cfpb_audited_archives_reconcile) ... ok
+test_cfpb_complete_manifest (test_audit.AuditEvidence.test_cfpb_complete_manifest) ... ok
+test_duplicate_count_across_chunk_boundaries (test_audit.AuditEvidence.test_duplicate_count_across_chunk_boundaries) ... ok
+test_metro_period_and_exposure (test_audit.AuditEvidence.test_metro_period_and_exposure) ... ok
+test_olist_denominator_and_join (test_audit.AuditEvidence.test_olist_denominator_and_join) ... ok
+test_original_archives (test_audit.AuditEvidence.test_original_archives) ... ok
+test_retail_sheet_reconciliation (test_audit.AuditEvidence.test_retail_sheet_reconciliation) ... ok
+test_health_and_request_id (test_production.ApiTests.test_health_and_request_id) ... ok
+test_nonfinite_validation (test_production.ApiTests.test_nonfinite_validation) ... ok
+test_real_forecast_endpoint (test_production.ApiTests.test_real_forecast_endpoint) ... ok
+test_reject_bad_shapes_and_values (test_production.ApiTests.test_reject_bad_shapes_and_values) ... ok
+test_constant_series_backtest (test_production.DecisionTests.test_constant_series_backtest) ... ok
+test_missing_bin_breaks_alert (test_production.DecisionTests.test_missing_bin_breaks_alert) ... ok
+test_private_pattern_scrubbing (test_production.DecisionTests.test_private_pattern_scrubbing) ... ok
+test_retail_features_do_not_see_future (test_production.DecisionTests.test_retail_features_do_not_see_future) ... ok
+test_template_guard (test_production.DecisionTests.test_template_guard) ... ok
+test_wilson_nonzero_uncertainty (test_production.DecisionTests.test_wilson_nonzero_uncertainty) ... ok
+test_copied_irrelevant_phrase_is_not_correct (test_review_fixes.ReviewFixes.test_copied_irrelevant_phrase_is_not_correct) ... ok
+test_intervals_use_three_distinct_chronological_blocks (test_review_fixes.ReviewFixes.test_intervals_use_three_distinct_chronological_blocks) ... <LOCAL_PATH> DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  self.assertTrue((pd.to_datetime(d.decision_time)==pd.to_datetime(d.origin_end)+pd.Timedelta(days=1)).all())
+ok
+test_numeric_alias_is_not_a_substring (test_review_fixes.ReviewFixes.test_numeric_alias_is_not_a_substring) ... ok
+test_private_or_unknown_release_file_is_not_auto_included (test_review_fixes.ReviewFixes.test_private_or_unknown_release_file_is_not_auto_included) ... ok
+test_total_cfpb_workflow_reconciles (test_review_fixes.ReviewFixes.test_total_cfpb_workflow_reconciles) ... ok
+test_wilson_probability_bounds_at_edges (test_review_fixes.ReviewFixes.test_wilson_probability_bounds_at_edges) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 3.939s
+
+OK

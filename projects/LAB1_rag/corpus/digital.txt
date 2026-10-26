@@ -1,0 +1,1 @@
+Lumen Library digital books expire after 21 days. Digital loans cannot be renewed. Members can borrow at most 5 digital books at a time. Offline access requires downloading before the loan expires.

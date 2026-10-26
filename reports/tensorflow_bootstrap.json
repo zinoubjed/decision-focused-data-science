@@ -1,0 +1,8 @@
+{
+  "wheel": "tensorflow-2.21.0-cp313-cp313-win_amd64.whl",
+  "sha256": "76cccbe0a95d9392dee1ae501ae0656b6c73c1cac29a7f8f32d570e0670863f7",
+  "runtime_files_written": 2036,
+  "cpp_header_members_omitted": 11080,
+  "reason": "Native Windows MAX_PATH during normal pip install; C++ custom-op headers not needed by CPU Keras benchmark. Official Python runtime and libraries retained.",
+  "limitation": "Custom C++ op compilation not supported by this reduced installation."
+}

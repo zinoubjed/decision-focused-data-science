@@ -1,0 +1,224 @@
+{
+  "sample_rule": "SHA256(complaint_id) first 8 hex mod 100 <3, 3% ID sample; all 21 archives scanned",
+  "sample_narratives": 115731,
+  "taxonomy_window": "2018-05-01 through 2023-07-31; labels retained as published, no silent relabeling",
+  "exact_duplicates_removed_in_window": 2702,
+  "training": 16463,
+  "validation_before_near_filter": 9194,
+  "test_before_near_filter": 7196,
+  "validation": 7464,
+  "test": 4677,
+  "near_duplicate_rule": "char_wb 3\u20135 gram hashing cosine >=0.90; validation/test vs training and test vs retained validation; not guaranteed semantic deduplication",
+  "near_validation_removed": 1730,
+  "near_test_removed": 2519,
+  "excluded_low_support_or_unseen_classes": {
+    "train": 0,
+    "validation": 0,
+    "test": 0
+  },
+  "classes": [
+    "Checking or savings account",
+    "Credit card or prepaid card",
+    "Credit reporting, credit repair services, or other personal consumer reports",
+    "Debt collection",
+    "Money transfer, virtual currency, or money service",
+    "Mortgage",
+    "Payday loan, title loan, or personal loan",
+    "Student loan",
+    "Vehicle loan or lease"
+  ],
+  "class_support_train": {
+    "Credit reporting, credit repair services, or other personal consumer reports": 8203,
+    "Debt collection": 2873,
+    "Credit card or prepaid card": 1604,
+    "Mortgage": 1244,
+    "Checking or savings account": 1026,
+    "Money transfer, virtual currency, or money service": 516,
+    "Vehicle loan or lease": 386,
+    "Student loan": 336,
+    "Payday loan, title loan, or personal loan": 275
+  },
+  "validation_macro_f1": {
+    "logistic_tfidf": 0.6400306296916427,
+    "multinomial_nb": 0.35255293600018534
+  },
+  "selected_model": "logistic_tfidf",
+  "fit_seconds": {
+    "logistic_tfidf": 3.9878081999486312,
+    "multinomial_nb": 0.044097699981648475
+  },
+  "test_accuracy": 0.8073551421851615,
+  "test_macro_f1": 0.6319920717270681,
+  "majority_accuracy": 0.5411588625187086,
+  "test_per_class": {
+    "Checking or savings account": {
+      "precision": 0.8105022831050228,
+      "recall": 0.7365145228215768,
+      "f1-score": 0.7717391304347826,
+      "support": 482.0
+    },
+    "Credit card or prepaid card": {
+      "precision": 0.7543859649122807,
+      "recall": 0.6640926640926641,
+      "f1-score": 0.7063655030800822,
+      "support": 518.0
+    },
+    "Credit reporting, credit repair services, or other personal consumer reports": {
+      "precision": 0.8464298528884104,
+      "recall": 0.9320426708810746,
+      "f1-score": 0.8871756299360662,
+      "support": 2531.0
+    },
+    "Debt collection": {
+      "precision": 0.662751677852349,
+      "recall": 0.7314814814814815,
+      "f1-score": 0.6954225352112676,
+      "support": 540.0
+    },
+    "Money transfer, virtual currency, or money service": {
+      "precision": 0.7125,
+      "recall": 0.4222222222222222,
+      "f1-score": 0.5302325581395348,
+      "support": 135.0
+    },
+    "Mortgage": {
+      "precision": 0.8214285714285714,
+      "recall": 0.8598130841121495,
+      "f1-score": 0.8401826484018264,
+      "support": 214.0
+    },
+    "Payday loan, title loan, or personal loan": {
+      "precision": 0.8,
+      "recall": 0.05714285714285714,
+      "f1-score": 0.10666666666666667,
+      "support": 70.0
+    },
+    "Student loan": {
+      "precision": 1.0,
+      "recall": 0.4444444444444444,
+      "f1-score": 0.6153846153846154,
+      "support": 63.0
+    },
+    "Vehicle loan or lease": {
+      "precision": 0.7936507936507936,
+      "recall": 0.4032258064516129,
+      "f1-score": 0.5347593582887701,
+      "support": 124.0
+    },
+    "accuracy": 0.8073551421851615,
+    "macro avg": {
+      "precision": 0.8001832382041587,
+      "recall": 0.5834421948500093,
+      "f1-score": 0.6319920717270681,
+      "support": 4677.0
+    },
+    "weighted avg": {
+      "precision": 0.806290315732399,
+      "recall": 0.8073551421851615,
+      "f1-score": 0.795974304002106,
+      "support": 4677.0
+    }
+  },
+  "threshold_selection": [
+    {
+      "threshold": 0.4,
+      "accepted": 6684,
+      "coverage": 0.8954983922829582,
+      "accuracy": 0.8810592459605027,
+      "accuracy_wilson_low": 0.8730787151046195,
+      "accuracy_wilson_high": 0.8886020041277258
+    },
+    {
+      "threshold": 0.5,
+      "accepted": 6115,
+      "coverage": 0.8192658092175777,
+      "accuracy": 0.9044971381847915,
+      "accuracy_wilson_low": 0.8968744744815165,
+      "accuracy_wilson_high": 0.9116118899963612
+    },
+    {
+      "threshold": 0.6,
+      "accepted": 5482,
+      "coverage": 0.7344587352625938,
+      "accuracy": 0.9277635899306822,
+      "accuracy_wilson_low": 0.9206068510689135,
+      "accuracy_wilson_high": 0.9343212241420075
+    },
+    {
+      "threshold": 0.7,
+      "accepted": 4861,
+      "coverage": 0.6512593783494105,
+      "accuracy": 0.9436329973256532,
+      "accuracy_wilson_low": 0.9367923077008653,
+      "accuracy_wilson_high": 0.9497730431627682
+    },
+    {
+      "threshold": 0.8,
+      "accepted": 4070,
+      "coverage": 0.5452840300107181,
+      "accuracy": 0.9606879606879607,
+      "accuracy_wilson_low": 0.9542700308754569,
+      "accuracy_wilson_high": 0.966237040386224
+    },
+    {
+      "threshold": 0.9,
+      "accepted": 2611,
+      "coverage": 0.34981243301178994,
+      "accuracy": 0.9743393335886633,
+      "accuracy_wilson_low": 0.9675418286031825,
+      "accuracy_wilson_high": 0.9797430853281239
+    },
+    {
+      "threshold": 0.95,
+      "accepted": 1310,
+      "coverage": 0.17550911039657022,
+      "accuracy": 0.9847328244274809,
+      "accuracy_wilson_low": 0.9765355461903676,
+      "accuracy_wilson_high": 0.9900954388537958
+    }
+  ],
+  "threshold": 0.6,
+  "accepted": 3171,
+  "accepted_wrong": 273,
+  "human_review": 1506,
+  "coverage": 0.6779987171263631,
+  "selective_accuracy": 0.9139072847682119,
+  "selective_accuracy_wilson": [
+    0.9036363140808099,
+    0.9231765889629198
+  ],
+  "cost_sensitivity": [
+    {
+      "wrong_suggestion_cost": 5,
+      "review_cost": 1,
+      "total_units": 2871,
+      "all_review_units": 4677
+    },
+    {
+      "wrong_suggestion_cost": 10,
+      "review_cost": 1,
+      "total_units": 4236,
+      "all_review_units": 4677
+    },
+    {
+      "wrong_suggestion_cost": 25,
+      "review_cost": 1,
+      "total_units": 8331,
+      "all_review_units": 4677
+    }
+  ],
+  "warm_classifier_seconds_per_100_or_less": 0.0004765000194311142,
+  "latency_excludes": "text vectorization, network, UI and human review",
+  "privacy": "Local-only text and vocabulary artifacts in ignored data/processed. No text, token vocabulary or complaint IDs exported in results. Regex scrubbing is incomplete.",
+  "environment": {
+    "python": "3.13.1",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "packages": {
+      "pandas": "2.2.3",
+      "numpy": "2.5.4",
+      "scikit-learn": "1.9.1",
+      "fastapi": "0.161.1",
+      "matplotlib": "3.11.2"
+    }
+  }
+}

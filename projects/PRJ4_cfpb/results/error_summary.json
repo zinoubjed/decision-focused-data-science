@@ -1,0 +1,58 @@
+{
+  "wrong_total": 901,
+  "wrong_accepted": 273,
+  "review_volume": 1506,
+  "no_text_examples_published": true,
+  "largest_confusions": [
+    {
+      "actual": "Credit card or prepaid card",
+      "predicted": "Credit reporting, credit repair services, or other personal consumer reports",
+      "count": 132
+    },
+    {
+      "actual": "Debt collection",
+      "predicted": "Credit reporting, credit repair services, or other personal consumer reports",
+      "count": 125
+    },
+    {
+      "actual": "Credit reporting, credit repair services, or other personal consumer reports",
+      "predicted": "Debt collection",
+      "count": 117
+    },
+    {
+      "actual": "Checking or savings account",
+      "predicted": "Credit reporting, credit repair services, or other personal consumer reports",
+      "count": 51
+    },
+    {
+      "actual": "Money transfer, virtual currency, or money service",
+      "predicted": "Checking or savings account",
+      "count": 49
+    },
+    {
+      "actual": "Checking or savings account",
+      "predicted": "Credit card or prepaid card",
+      "count": 48
+    },
+    {
+      "actual": "Vehicle loan or lease",
+      "predicted": "Credit reporting, credit repair services, or other personal consumer reports",
+      "count": 35
+    },
+    {
+      "actual": "Credit reporting, credit repair services, or other personal consumer reports",
+      "predicted": "Credit card or prepaid card",
+      "count": 32
+    },
+    {
+      "actual": "Payday loan, title loan, or personal loan",
+      "predicted": "Credit reporting, credit repair services, or other personal consumer reports",
+      "count": 29
+    },
+    {
+      "actual": "Student loan",
+      "predicted": "Credit reporting, credit repair services, or other personal consumer reports",
+      "count": 26
+    }
+  ]
+}

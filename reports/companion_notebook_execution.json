@@ -1,0 +1,51 @@
+[
+  {
+    "project": "PRJ2",
+    "notebook": "projects\\PRJ2_retail\\evidence_companion.ipynb",
+    "executed_code_cells": 3,
+    "errors": 0,
+    "scope": "read and display executed pipeline evidence; not training or Kaggle execution"
+  },
+  {
+    "project": "PRJ3",
+    "notebook": "projects\\PRJ3_olist\\evidence_companion.ipynb",
+    "executed_code_cells": 3,
+    "errors": 0,
+    "scope": "read and display executed pipeline evidence; not training or Kaggle execution"
+  },
+  {
+    "project": "PRJ4",
+    "notebook": "projects\\PRJ4_cfpb\\evidence_companion.ipynb",
+    "executed_code_cells": 3,
+    "errors": 0,
+    "scope": "read and display executed pipeline evidence; not training or Kaggle execution"
+  },
+  {
+    "project": "PRJ5",
+    "notebook": "projects\\PRJ5_metro\\evidence_companion.ipynb",
+    "executed_code_cells": 2,
+    "errors": 0,
+    "scope": "read and display executed pipeline evidence; not training or Kaggle execution"
+  },
+  {
+    "project": "LAB1",
+    "notebook": "projects\\LAB1_rag\\evidence_companion.ipynb",
+    "executed_code_cells": 3,
+    "errors": 0,
+    "scope": "read and display executed pipeline evidence; not training or Kaggle execution"
+  },
+  {
+    "project": "LAB2",
+    "notebook": "projects\\LAB2_pyspark\\evidence_companion.ipynb",
+    "executed_code_cells": 1,
+    "errors": 0,
+    "scope": "read and display executed pipeline evidence; not training or Kaggle execution"
+  },
+  {
+    "project": "LAB3",
+    "notebook": "projects\\LAB3_tensorflow\\evidence_companion.ipynb",
+    "executed_code_cells": 2,
+    "errors": 0,
+    "scope": "read and display executed pipeline evidence; not training or Kaggle execution"
+  }
+]

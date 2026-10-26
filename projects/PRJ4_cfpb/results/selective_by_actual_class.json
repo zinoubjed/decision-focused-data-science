@@ -1,0 +1,128 @@
+[
+  {
+    "actual_class": "Checking or savings account",
+    "test_support": 482,
+    "accepted": 146,
+    "accepted_correct": 136,
+    "accepted_wrong": 10,
+    "review": 336,
+    "coverage": 0.3029045643153527,
+    "accepted_accuracy": 0.9315068493150684,
+    "accepted_accuracy_wilson": [
+      0.8785140252349515,
+      0.9623739524695043
+    ]
+  },
+  {
+    "actual_class": "Credit card or prepaid card",
+    "test_support": 518,
+    "accepted": 250,
+    "accepted_correct": 173,
+    "accepted_wrong": 77,
+    "review": 268,
+    "coverage": 0.4826254826254826,
+    "accepted_accuracy": 0.692,
+    "accepted_accuracy_wilson": [
+      0.632225937959959,
+      0.7459626646961856
+    ]
+  },
+  {
+    "actual_class": "Credit reporting, credit repair services, or other personal consumer reports",
+    "test_support": 2531,
+    "accepted": 2242,
+    "accepted_correct": 2164,
+    "accepted_wrong": 78,
+    "review": 289,
+    "coverage": 0.8858158830501778,
+    "accepted_accuracy": 0.9652096342551294,
+    "accepted_accuracy_wilson": [
+      0.9567933020615482,
+      0.9720344478563447
+    ]
+  },
+  {
+    "actual_class": "Debt collection",
+    "test_support": 540,
+    "accepted": 362,
+    "accepted_correct": 294,
+    "accepted_wrong": 68,
+    "review": 178,
+    "coverage": 0.6703703703703704,
+    "accepted_accuracy": 0.8121546961325967,
+    "accepted_accuracy_wilson": [
+      0.7687180595430535,
+      0.8490356349520504
+    ]
+  },
+  {
+    "actual_class": "Money transfer, virtual currency, or money service",
+    "test_support": 135,
+    "accepted": 17,
+    "accepted_correct": 11,
+    "accepted_wrong": 6,
+    "review": 118,
+    "coverage": 0.1259259259259259,
+    "accepted_accuracy": 0.6470588235294118,
+    "accepted_accuracy_wilson": [
+      0.4129996672121182,
+      0.826905138560951
+    ]
+  },
+  {
+    "actual_class": "Mortgage",
+    "test_support": 214,
+    "accepted": 114,
+    "accepted_correct": 110,
+    "accepted_wrong": 4,
+    "review": 100,
+    "coverage": 0.5327102803738317,
+    "accepted_accuracy": 0.9649122807017544,
+    "accepted_accuracy_wilson": [
+      0.9132402851480909,
+      0.986272280872737
+    ]
+  },
+  {
+    "actual_class": "Payday loan, title loan, or personal loan",
+    "test_support": 70,
+    "accepted": 10,
+    "accepted_correct": 0,
+    "accepted_wrong": 10,
+    "review": 60,
+    "coverage": 0.14285714285714285,
+    "accepted_accuracy": 0.0,
+    "accepted_accuracy_wilson": [
+      0.0,
+      0.2775401687666166
+    ]
+  },
+  {
+    "actual_class": "Student loan",
+    "test_support": 63,
+    "accepted": 16,
+    "accepted_correct": 4,
+    "accepted_wrong": 12,
+    "review": 47,
+    "coverage": 0.25396825396825395,
+    "accepted_accuracy": 0.25,
+    "accepted_accuracy_wilson": [
+      0.10181901984237346,
+      0.49498768929398645
+    ]
+  },
+  {
+    "actual_class": "Vehicle loan or lease",
+    "test_support": 124,
+    "accepted": 14,
+    "accepted_correct": 6,
+    "accepted_wrong": 8,
+    "review": 110,
+    "coverage": 0.11290322580645161,
+    "accepted_accuracy": 0.42857142857142855,
+    "accepted_accuracy_wilson": [
+      0.21380509930400526,
+      0.6740973309713064
+    ]
+  }
+]

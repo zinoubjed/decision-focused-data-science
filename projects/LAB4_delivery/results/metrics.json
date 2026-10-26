@@ -1,0 +1,36 @@
+{
+  "health_http": 200,
+  "forecast_http": 200,
+  "invalid_input_http": 422,
+  "example_forecast": 53.0,
+  "listener": "127.0.0.1:18764",
+  "public_listener": false,
+  "request_id_header": true,
+  "test_data": "synthetic numeric values only",
+  "process_stop": "terminated in finally after smoke",
+  "docker_build": "EXECUTED: dfds-lab4:review",
+  "remote_ci": "NOT EXECUTED",
+  "cloud": "NOT DEPLOYED",
+  "environment": {
+    "python": "3.13.1",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "packages": {
+      "pandas": "2.2.3",
+      "numpy": "2.5.4",
+      "scikit-learn": "1.9.1",
+      "fastapi": "0.161.1",
+      "matplotlib": "3.11.2"
+    }
+  },
+  "docker_image_id": "sha256:8742d4b2beb7fefb294c2940745e125e91cbc4582b0e674bc266baf927d4ce34",
+  "docker_container_smoke": {
+    "health_http": 200,
+    "forecast_http": 200,
+    "example_forecast": 53,
+    "invalid_cases_422": 5,
+    "healthcheck": "healthy",
+    "nonroot_uid": "1000",
+    "stopped": true,
+    "exit_code": 0
+  }
+}

@@ -1,0 +1,17 @@
+<LOCAL_PATH> StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_health_and_request_id (outputs.portfolio.tests.test_production.ApiTests.test_health_and_request_id) ... ok
+test_nonfinite_validation (outputs.portfolio.tests.test_production.ApiTests.test_nonfinite_validation) ... ok
+test_real_forecast_endpoint (outputs.portfolio.tests.test_production.ApiTests.test_real_forecast_endpoint) ... ok
+test_reject_bad_shapes_and_values (outputs.portfolio.tests.test_production.ApiTests.test_reject_bad_shapes_and_values) ... ok
+test_constant_series_backtest (outputs.portfolio.tests.test_production.DecisionTests.test_constant_series_backtest) ... ok
+test_missing_bin_breaks_alert (outputs.portfolio.tests.test_production.DecisionTests.test_missing_bin_breaks_alert) ... ok
+test_private_pattern_scrubbing (outputs.portfolio.tests.test_production.DecisionTests.test_private_pattern_scrubbing) ... ok
+test_retail_features_do_not_see_future (outputs.portfolio.tests.test_production.DecisionTests.test_retail_features_do_not_see_future) ... ok
+test_template_guard (outputs.portfolio.tests.test_production.DecisionTests.test_template_guard) ... ok
+test_wilson_nonzero_uncertainty (outputs.portfolio.tests.test_production.DecisionTests.test_wilson_nonzero_uncertainty) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.434s
+
+OK

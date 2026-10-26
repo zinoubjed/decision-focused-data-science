@@ -1,0 +1,1 @@
+PRJ2 seasonal_52 {'n': 26, 'MAE': 40170.66038461538, 'WAPE': 0.17402432619507868, 'bias_actual_minus_forecast': 3040.3911538461552}

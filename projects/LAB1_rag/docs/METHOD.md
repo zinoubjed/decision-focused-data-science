@@ -1,0 +1,11 @@
+# Local RAG evaluation contract
+
+Eight authored fictional library-policy documents form the authorised corpus, each a <=100-word chunk with source ID and SHA-256. Corpus text is dedicated to the public domain under CC0-1.0. It contains no real organisation policy or user personal data. Fixed questions are defined in source before generation; no question tuning was performed after seeing these outputs.
+
+TF-IDF unigrams/bigrams feed seven-dimensional truncated-SVD dense vectors, normalized for cosine retrieval. This is a measured latent-semantic embedding approach, not a claim to neural embeddings. Retrieve top two chunks. Generate with local FLAN-T5-small, pinned revision and file hashes, CPU two threads, max 512 input tokens, greedy output <=48 tokens. Compare the same model without retrieved context.
+
+A mechanical guard refuses UNKNOWN/unspecified outputs, low similarity or generated text absent from normalized source context. Citations point to matching source filenames. This guard was deliberately evaluated rather than assumed reliable; it admits irrelevant copied phrases and overbroad citations. See FAILURE_REVIEW.md for concrete failures and the difference between automatic substring scoring and AI semantic inspection.
+
+Metrics: retrieval hit@2 on questions with a source, raw/guarded/reference accuracy, unsupported-substring fraction, correct refusal on unanswerable questions, generation latency and zero external API charge. Electricity, hardware, initial loading and retrieval setup cost are not monetized. Manual independent human faithfulness assessment remains unperformed. This is a technically executed evaluation demo, not an operationally reliable chatbot.
+
+**Scoring revision.** `src/score_rag.py` implements explicit exact normalized aliases, rejecting numeric substrings such as 140 for 14 and irrelevant copied phrases. It derives counts from stored outputs rather than hardcoding aggregate scores in a figure script. Rubric v2 yields baseline 2/20 (10%), raw RAG 14/20 and guarded 17/20; original substring scores remain unchanged for traceability. Reference-document precision is 15/18 citations (83.33%), while correct-answer-plus-reference fraction is 14/18 (77.78%); neither is a semantic entailment guarantee. This rubric was clarified after output inspection and is not presented as an untouched blind benchmark.

@@ -1,0 +1,40 @@
+{
+  "questions": 20,
+  "answerable": 16,
+  "raw_exact_reference_accuracy": 0.7,
+  "guarded_exact_reference_accuracy": 0.85,
+  "no_rag_exact_reference_accuracy": 0.0,
+  "retrieval_hit_at_2": 0.8888888888888888,
+  "raw_unsupported_substring_fraction": 0.2,
+  "guard_abstention_fraction": 0.2,
+  "correct_unknown_on_unanswerable": 3,
+  "rag_mean_generation_seconds": 0.10760105999652296,
+  "no_rag_mean_generation_seconds": 0.07186097000376321,
+  "embeddings": "7-dimensional truncated-SVD latent semantic embeddings on TF-IDF, fit corpus only",
+  "model": "google/flan-t5-small; Apache-2.0, revision/checksums in model_manifest.json",
+  "compute": "CPU local, 2 torch threads, deterministic greedy decoding",
+  "external_api_calls": 0,
+  "api_usage_cost": 0,
+  "cost_limit": "Electricity and hardware cost not measured; zero API charge does not mean zero total cost.",
+  "limits": [
+    "20 authored questions, used as a fixed diagnostic set, not broad generalization.",
+    "Expected-answer substring accuracy and source-substring support are mechanical proxies; negation and aliases need human semantic review.",
+    "Guard may reject valid paraphrases and may accept a supported phrase answering the wrong question.",
+    "Toy fictional policies, no personal data, no actual institutional rules."
+  ],
+  "environment": {
+    "python": "3.13.1",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "packages": {
+      "pandas": "3.1.0",
+      "numpy": "2.5.4",
+      "scikit-learn": "1.9.1",
+      "tensorflow": "2.21.0",
+      "torch": "2.14.1",
+      "transformers": "5.20.2",
+      "pyspark": "4.2.0",
+      "fastapi": "0.161.1",
+      "matplotlib": "3.11.2"
+    }
+  }
+}

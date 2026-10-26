@@ -1,0 +1,6 @@
+{
+  "url": "https://repo.maven.apache.org/maven2/com/globalmentor/hadoop-bare-naked-local-fs/0.1.0/hadoop-bare-naked-local-fs-0.1.0.jar",
+  "sha256": "e0cc30fb0531eb0b59468dc0abf5b257533d2365b5e9f45e795edd707aa78c62",
+  "source": "https://github.com/globalmentor/hadoop-bare-naked-local-fs",
+  "purpose": "Pure Java local filesystem adapter for real Spark Parquet; no Winutils native binary"
+}

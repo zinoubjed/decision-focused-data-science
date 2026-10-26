@@ -1,0 +1,204 @@
+{
+  "diagnostics": {
+    "cancelled_lines": 19494,
+    "negative_quantity_lines": 22950,
+    "negative_quantity_signed_value_GBP": -1527041.43,
+    "positive_before_dedup_rows": 1041670,
+    "positive_duplicate_rows": 33757,
+    "target": "positive recorded sales value, GBP; not net revenue or latent demand"
+  },
+  "primary": "retain_ambiguous_duplicates",
+  "variants": {
+    "retain_ambiguous_duplicates": {
+      "last_week": {
+        "n": 26,
+        "MAE": 46271.53576923077,
+        "WAPE": 0.20045408158975095,
+        "bias_actual_minus_forecast": 7910.851923076924
+      },
+      "mean_4": {
+        "n": 26,
+        "MAE": 35291.92109615384,
+        "WAPE": 0.152889017259975,
+        "bias_actual_minus_forecast": 17089.794903846156
+      },
+      "ridge_log_lags": {
+        "n": 26,
+        "MAE": 38638.14422680151,
+        "WAPE": 0.16738527447939494,
+        "bias_actual_minus_forecast": 7914.996465437765
+      },
+      "seasonal_52": {
+        "n": 26,
+        "MAE": 40170.66038461538,
+        "WAPE": 0.17402432619507868,
+        "bias_actual_minus_forecast": 3040.3911538461552
+      },
+      "selected_on_validation": "seasonal_52",
+      "validation_origins": 13,
+      "test_origins": 26,
+      "interval": {
+        "nominal": 0.9,
+        "calibration_absolute_error_GBP": 54350.76000000001,
+        "calibration_weeks": 13,
+        "evaluation_weeks": 13,
+        "calibration_target_dates": [
+          "2011-06-12 00:00:00",
+          "2011-06-19 00:00:00",
+          "2011-06-26 00:00:00",
+          "2011-07-03 00:00:00",
+          "2011-07-10 00:00:00",
+          "2011-07-17 00:00:00",
+          "2011-07-24 00:00:00",
+          "2011-07-31 00:00:00",
+          "2011-08-07 00:00:00",
+          "2011-08-14 00:00:00",
+          "2011-08-21 00:00:00",
+          "2011-08-28 00:00:00",
+          "2011-09-04 00:00:00"
+        ],
+        "evaluation_target_dates": [
+          "2011-09-11 00:00:00",
+          "2011-09-18 00:00:00",
+          "2011-09-25 00:00:00",
+          "2011-10-02 00:00:00",
+          "2011-10-09 00:00:00",
+          "2011-10-16 00:00:00",
+          "2011-10-23 00:00:00",
+          "2011-10-30 00:00:00",
+          "2011-11-06 00:00:00",
+          "2011-11-13 00:00:00",
+          "2011-11-20 00:00:00",
+          "2011-11-27 00:00:00",
+          "2011-12-04 00:00:00"
+        ],
+        "test_coverage": 0.6153846153846154,
+        "mean_width_GBP": 108701.52000000002,
+        "guarantee": "none: temporal dependence; separate chronological selection/calibration/evaluation blocks"
+      },
+      "cost_scenarios": [
+        {
+          "underforecast_relative_cost": 1,
+          "overforecast_relative_cost": 1,
+          "total_assumed_cost_units": 1044437.1699999999
+        },
+        {
+          "underforecast_relative_cost": 2,
+          "overforecast_relative_cost": 1,
+          "total_assumed_cost_units": 1606180.84
+        },
+        {
+          "underforecast_relative_cost": 5,
+          "overforecast_relative_cost": 1,
+          "total_assumed_cost_units": 3291411.8499999996
+        }
+      ]
+    },
+    "remove_exact_duplicates": {
+      "last_week": {
+        "n": 26,
+        "MAE": 46255.295,
+        "WAPE": 0.20089671017674418,
+        "bias_actual_minus_forecast": 7886.213461538461
+      },
+      "mean_4": {
+        "n": 26,
+        "MAE": 35200.75080769231,
+        "WAPE": 0.1528844434570519,
+        "bias_actual_minus_forecast": 17004.776923076926
+      },
+      "ridge_log_lags": {
+        "n": 26,
+        "MAE": 40680.561115245924,
+        "WAPE": 0.1766844400451211,
+        "bias_actual_minus_forecast": 23499.728756324897
+      },
+      "seasonal_52": {
+        "n": 26,
+        "MAE": 33010.656923076924,
+        "WAPE": 0.1433723939414789,
+        "bias_actual_minus_forecast": 10315.816923076925
+      },
+      "selected_on_validation": "seasonal_52",
+      "validation_origins": 13,
+      "test_origins": 26,
+      "interval": {
+        "nominal": 0.9,
+        "calibration_absolute_error_GBP": 54563.97,
+        "calibration_weeks": 13,
+        "evaluation_weeks": 13,
+        "calibration_target_dates": [
+          "2011-06-12 00:00:00",
+          "2011-06-19 00:00:00",
+          "2011-06-26 00:00:00",
+          "2011-07-03 00:00:00",
+          "2011-07-10 00:00:00",
+          "2011-07-17 00:00:00",
+          "2011-07-24 00:00:00",
+          "2011-07-31 00:00:00",
+          "2011-08-07 00:00:00",
+          "2011-08-14 00:00:00",
+          "2011-08-21 00:00:00",
+          "2011-08-28 00:00:00",
+          "2011-09-04 00:00:00"
+        ],
+        "evaluation_target_dates": [
+          "2011-09-11 00:00:00",
+          "2011-09-18 00:00:00",
+          "2011-09-25 00:00:00",
+          "2011-10-02 00:00:00",
+          "2011-10-09 00:00:00",
+          "2011-10-16 00:00:00",
+          "2011-10-23 00:00:00",
+          "2011-10-30 00:00:00",
+          "2011-11-06 00:00:00",
+          "2011-11-13 00:00:00",
+          "2011-11-20 00:00:00",
+          "2011-11-27 00:00:00",
+          "2011-12-04 00:00:00"
+        ],
+        "test_coverage": 0.6923076923076923,
+        "mean_width_GBP": 109127.93999999997,
+        "guarantee": "none: temporal dependence; separate chronological selection/calibration/evaluation blocks"
+      },
+      "cost_scenarios": [
+        {
+          "underforecast_relative_cost": 1,
+          "overforecast_relative_cost": 1,
+          "total_assumed_cost_units": 858277.0800000001
+        },
+        {
+          "underforecast_relative_cost": 2,
+          "overforecast_relative_cost": 1,
+          "total_assumed_cost_units": 1421521.24
+        },
+        {
+          "underforecast_relative_cost": 5,
+          "overforecast_relative_cost": 1,
+          "total_assumed_cost_units": 3111253.7199999997
+        }
+      ]
+    }
+  },
+  "planning_scenario": {
+    "origin_completed_week": "2011-12-04 00:00:00",
+    "decision_time": "2011-12-05 00:00:00",
+    "next_week_end": "2011-12-11 00:00:00",
+    "central_GBP": 583361.63,
+    "low_GBP": 529010.87,
+    "high_GBP": 637712.39,
+    "decision": "human workload/revenue scenario review only; no stock/capacity purchase authorised",
+    "historical_replay": true
+  },
+  "environment": {
+    "python": "3.13.1",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "packages": {
+      "pandas": "2.2.3",
+      "numpy": "2.5.4",
+      "scikit-learn": "1.9.1",
+      "fastapi": "0.161.1",
+      "matplotlib": "3.11.2"
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "train_rows_10min": 3583,
+  "test_rows_10min": 26520,
+  "test_missing_bins": 4582,
+  "model": "IsolationForest, first calendar month only, 10-minute medians",
+  "persistence": "3 consecutive bins; one episode per contiguous alert",
+  "results": [
+    {
+      "train_score_quantile": 0.99,
+      "threshold": 0.6202367641147316,
+      "valid_test_bins": 21938,
+      "alert_bins": 1607,
+      "alert_episodes": 41,
+      "outside_report_episodes": 36,
+      "outside_report_episodes_per_observed_day": 0.23630230650013673,
+      "events": [
+        {
+          "start": "2020-04-18 00:00:00",
+          "end": "2020-04-18 23:59:00",
+          "alert_in_event": true,
+          "alert_in_prior_24h": false
+        },
+        {
+          "start": "2020-05-29 23:30:00",
+          "end": "2020-05-30 06:00:00",
+          "alert_in_event": true,
+          "alert_in_prior_24h": false
+        },
+        {
+          "start": "2020-06-05 10:00:00",
+          "end": "2020-06-07 14:30:00",
+          "alert_in_event": true,
+          "alert_in_prior_24h": false
+        },
+        {
+          "start": "2020-07-15 14:30:00",
+          "end": "2020-07-15 19:00:00",
+          "alert_in_event": true,
+          "alert_in_prior_24h": true
+        }
+      ]
+    },
+    {
+      "train_score_quantile": 0.995,
+      "threshold": 0.6390782318053464,
+      "valid_test_bins": 21938,
+      "alert_bins": 1580,
+      "alert_episodes": 35,
+      "outside_report_episodes": 30,
+      "outside_report_episodes_per_observed_day": 0.19691858875011395,
+      "events": [
+        {
+          "start": "2020-04-18 00:00:00",
+          "end": "2020-04-18 23:59:00",
+          "alert_in_event": true,
+          "alert_in_prior_24h": false
+        },
+        {
+          "start": "2020-05-29 23:30:00",
+          "end": "2020-05-30 06:00:00",
+          "alert_in_event": true,
+          "alert_in_prior_24h": false
+        },
+        {
+          "start": "2020-06-05 10:00:00",
+          "end": "2020-06-07 14:30:00",
+          "alert_in_event": true,
+          "alert_in_prior_24h": false
+        },
+        {
+          "start": "2020-07-15 14:30:00",
+          "end": "2020-07-15 19:00:00",
+          "alert_in_event": true,
+          "alert_in_prior_24h": true
+        }
+      ]
+    },
+    {
+      "train_score_quantile": 0.999,
+      "threshold": 0.6744791710854428,
+      "valid_test_bins": 21938,
+      "alert_bins": 1021,
+      "alert_episodes": 25,
+      "outside_report_episodes": 20,
+      "outside_report_episodes_per_observed_day": 0.13127905916674262,
+      "events": [
+        {
+          "start": "2020-04-18 00:00:00",
+          "end": "2020-04-18 23:59:00",
+          "alert_in_event": true,
+          "alert_in_prior_24h": false
+        },
+        {
+          "start": "2020-05-29 23:30:00",
+          "end": "2020-05-30 06:00:00",
+          "alert_in_event": true,
+          "alert_in_prior_24h": false
+        },
+        {
+          "start": "2020-06-05 10:00:00",
+          "end": "2020-06-07 14:30:00",
+          "alert_in_event": true,
+          "alert_in_prior_24h": false
+        },
+        {
+          "start": "2020-07-15 14:30:00",
+          "end": "2020-07-15 19:00:00",
+          "alert_in_event": true,
+          "alert_in_prior_24h": true
+        }
+      ]
+    }
+  ],
+  "warning": "Outside-report alerts are unverified alerts, not proven false positives. Four events cannot establish generalisation. Report has duplicated event ID and inconsistent maintenance date; original intervals preserved."
+}

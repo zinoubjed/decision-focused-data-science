@@ -1,0 +1,47 @@
+{
+  "rows": 1067371,
+  "columns": [
+    "Invoice",
+    "StockCode",
+    "Description",
+    "Quantity",
+    "InvoiceDate",
+    "Price",
+    "Customer ID",
+    "Country"
+  ],
+  "dtypes": {
+    "Invoice": "object",
+    "StockCode": "object",
+    "Description": "object",
+    "Quantity": "int64",
+    "InvoiceDate": "datetime64[ns]",
+    "Price": "float64",
+    "Customer ID": "float64",
+    "Country": "object"
+  },
+  "nulls": {
+    "Invoice": 0,
+    "StockCode": 0,
+    "Description": 4382,
+    "Quantity": 0,
+    "InvoiceDate": 0,
+    "Price": 0,
+    "Customer ID": 243007,
+    "Country": 0
+  },
+  "duplicate_rows": 34335,
+  "sheet_rows": {
+    "Year 2009-2010": 525461,
+    "Year 2010-2011": 541910
+  },
+  "period": [
+    "2009-12-01 07:45:00",
+    "2011-12-09 12:50:00"
+  ],
+  "cancellations": 19494,
+  "nonpositive_quantity": 22950,
+  "nonpositive_price": 6207,
+  "clean_rows": 1007913,
+  "complete_weeks": 104
+}
