@@ -6,6 +6,8 @@
 
 Neuf études et laboratoires assistés par IA, présentés autour de décisions, de contrôles de données, de références simples et de limites vérifiables. Les résultats proviennent d’exécutions locales documentées ; ils ne valident pas une maîtrise personnelle autonome, une expérience client ou un usage en production.
 
+[Voir la présentation Notion publique](https://four-selenium-26f.notion.site/Zaineb-Mhiri-Decision-Focused-Data-Science-Portfolio-402aa794e97f816489c9f6bb805e316c) · [État de diffusion](PUBLICATION_STATUS.md)
+
 ## Parcours de lecture
 
 Commencer par **Retail** pour le choix du modèle et l’incertitude, **Olist** pour la fiabilité des indicateurs SQL, puis **CFPB** pour l’abstention et la revue humaine. Les quatre laboratoires apportent des preuves d’exécution RAG local, Spark, TensorFlow et Docker. Le projet Telco existant a été reproduit sans reconstruction.
@@ -51,4 +53,4 @@ Le conteneur LAB4 a été construit, testé sur 127.0.0.1 et arrêté proprement
 
 ## État de cette édition
 
-Édition publique préparée le 26 octobre 2026 à partir des preuves revues le 23 octobre. Les métriques n’ont pas été recalculées pour la publication. Les anciens documents techniques et journaux sont des snapshots datés ; leurs mentions de brouillon ou d’accès privé ne décrivent pas le statut de diffusion actuel. Le suivi à jour est [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md).
+Édition publique publiée et vérifiée le 26 octobre 2026 à partir des preuves revues le 23 octobre. Les métriques n’ont pas été recalculées pour la publication. Les anciens documents techniques et journaux sont des snapshots datés ; leurs mentions de brouillon ou d’accès privé ne décrivent pas le statut de diffusion actuel. Le suivi à jour est [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md).

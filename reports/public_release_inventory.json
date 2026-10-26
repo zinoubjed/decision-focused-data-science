@@ -58,6 +58,11 @@
       "sha256": "7742025c75d261f145afbe63ee072903f475127915c56f1d83e2df24b672ee78"
     },
     {
+      "path": "docs/PUBLICATION_CHECKS.md",
+      "bytes": 1984,
+      "sha256": "2c892c64b8e0b20c1e000f38a52c9933b06e8d9ceea46d402f618d77d7e2f803"
+    },
+    {
       "path": "docs/RECRUITER_SHOWCASE.md",
       "bytes": 3521,
       "sha256": "20f8e8503e96b35cdf7c5c32ae0f0da67f6578c011d6db1f3ff634cbe82c284c"
@@ -579,13 +584,13 @@
     },
     {
       "path": "PUBLICATION_STATUS.md",
-      "bytes": 978,
-      "sha256": "e36d5da576363dc75255bff299a0cd72312107ed11d76cf04c91636dfe1780ae"
+      "bytes": 3932,
+      "sha256": "9bc00f81769bbd00988ba1bc9eebf05cad800ae67600369c57c6b9c4b5fcbf11"
     },
     {
       "path": "README.md",
-      "bytes": 6766,
-      "sha256": "cf35965a218ec8d91bf9721381c4225af910de6a7ed53fcd82fdbe9826cb9ab4"
+      "bytes": 6993,
+      "sha256": "af4e96150a9b74ccc54945bfa36da8f357643a63f285758d334267f718332e91"
     },
     {
       "path": "reports/acquisition.json",
@@ -1050,5 +1055,6 @@
   ],
   "data_policy": "No raw/private CFPB text, complaint IDs, vocabulary, models, runtimes, secrets, private snapshots or private transfer receipts",
   "code_licence": "MIT scoped by LICENSING.md",
-  "remote_ci": "not executed; Actions disabled"
+  "remote_ci": "not executed; Actions disabled",
+  "public_notion_pages": 10
 }
